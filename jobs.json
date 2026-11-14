@@ -1,0 +1,73 @@
+{
+  "updatedAt": "2026-11-14T09:00:00-06:00",
+  "jobs": [
+    {
+      "id": "sample-cu-ach-ops",
+      "sample": true,
+      "company": "First Community Credit Union",
+      "title": "ACH Operations Specialist",
+      "pay": "$72,000–$88,000",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Review originator onboarding packets and NACHA risk ratings",
+        "Work with BSA/AML on high-risk ODFI exception queues",
+        "Salesforce + in-house ACH origination platform"
+      ],
+      "headsUp": "Sample listing. Requires 2+ years in ACH ops or payments risk; Series 7 not needed.",
+      "url": "https://example.com/jobs/sample-cu-ach-ops",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "sample-health-revcycle",
+      "sample": true,
+      "company": "Northlake Health System",
+      "title": "Revenue Cycle Analyst — Patient Payments",
+      "pay": "$68,000–$82,000",
+      "location": "Chicago, IL (hybrid 2 days)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Reconcile lockbox, card, and ACH patient-pay files",
+        "Build exception reports for denials and returned payments",
+        "Epic Resolute and Excel-heavy weekly close"
+      ],
+      "headsUp": "Sample listing. Hybrid in the Loop; Illinois-based candidates preferred.",
+      "url": "https://example.com/jobs/sample-health-revcycle",
+      "ats": "Workday"
+    },
+    {
+      "id": "sample-bank-payments-risk",
+      "sample": true,
+      "company": "Harbor Meridian Bank",
+      "title": "Payments Risk Analyst, ACH Originators",
+      "pay": "$90,000–$110,000 + bonus",
+      "location": "Dallas, TX (remote-friendly)",
+      "lane": "Banking",
+      "highlights": [
+        "Score new originators and review existing portfolios quarterly",
+        "Write memos for the originator-review committee",
+        "SQL + Excel; exposure to FedACH and same-day windows"
+      ],
+      "headsUp": "Sample listing. Some travel to community-bank clients, about one week a quarter.",
+      "url": "https://example.com/jobs/sample-bank-payments-risk",
+      "ats": "Lever"
+    },
+    {
+      "id": "sample-healthtech-impl",
+      "sample": true,
+      "company": "Careledger Health",
+      "title": "Implementation Manager, Claims & Remittance",
+      "pay": "$48–$58/hr (contract, 6 months)",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Stand up 835/837 and ERA posting for mid-size clinics",
+        "Translate payer rules into playbooks for ops teams",
+        "Coordinate with clearinghouses and practice managers"
+      ],
+      "headsUp": "Sample listing. W2 contract through a vendor; no benefits after 90 days unless converted.",
+      "url": "https://example.com/jobs/sample-healthtech-impl",
+      "ats": "Ashby"
+    }
+  ]
+}
