@@ -64,6 +64,60 @@ function check(name, pass, detail) {
   if (!pass) results.ok = false;
 }
 
+async function hookControl(body) {
+  const res = await fetch(`http://127.0.0.1:${HOOK_PORT}/control`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) throw new Error(`control HTTP ${res.status}`);
+  return res.json();
+}
+
+async function hookStats() {
+  const res = await fetch(`http://127.0.0.1:${HOOK_PORT}/stats`);
+  if (!res.ok) throw new Error(`stats HTTP ${res.status}`);
+  return res.json();
+}
+
+async function swipeRightSettled(page) {
+  const job = await page.evaluate(() => {
+    const j = window.JobSwipe.visibleJobs()[0];
+    window.JobSwipe.swipeRight();
+    return j ? { id: j.id, title: j.title, company: j.company } : null;
+  });
+  await delay(450);
+  return job;
+}
+
+async function queueBarState(page) {
+  return page.evaluate(() => {
+    const bar = document.getElementById("queue-bar");
+    const label = document.getElementById("queue-label");
+    const btn = document.getElementById("retry-btn");
+    return {
+      hidden: !bar || bar.hidden,
+      text: label ? label.textContent : "",
+      button: btn ? btn.textContent.trim() : "",
+      error: !!(bar && bar.classList.contains("is-error")),
+      queue: window.JobSwipe.getQueue().map((p) => p.job && p.job.id),
+      sending: window.JobSwipe.isSending(),
+    };
+  });
+}
+
+async function waitUntil(fn, timeoutMs, label) {
+  const start = Date.now();
+  let last;
+  while (Date.now() - start < timeoutMs) {
+    last = await fn();
+    if (last) return last;
+    await delay(50);
+  }
+  throw new Error(`Timed out waiting for ${label}`);
+}
+
+
 try {
   start("python3", ["-m", "http.server", String(APP_PORT), "--bind", "127.0.0.1"], {
     cwd: ROOT,
@@ -179,6 +233,129 @@ try {
   // Card advanced
   const nextTitle = await page.locator(".card:not(.is-behind) .title").innerText();
   check("deck advanced to a new card", nextTitle && nextTitle !== title, nextTitle);
+
+
+  // --- Auto-retry, serialized queue, and calm status bar ---
+  const retryLogStart = readLog().length;
+  await hookControl({ failNext: 2, failStatus: 503, delayMs: 120 });
+  await page.evaluate(() => window.JobSwipe.setBackoffMs([1800, 80, 80, 80]));
+
+  const jobA = await swipeRightSettled(page);
+  check("retry scenario has a first job", Boolean(jobA && jobA.id), jobA && jobA.id);
+
+  const waiting = await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return !ui.hidden && !ui.sending && /retrying automatically/i.test(ui.text) ? ui : null;
+  }, 4000, "waiting status after a transient failure");
+
+  check("bar is visible after a failed send", !waiting.hidden);
+  check("bar is not an error tone after a transient failure", !waiting.error, waiting.text);
+  check(
+    "bar says waiting / retrying automatically",
+    /Waiting to send, retrying automatically/i.test(waiting.text),
+    waiting.text
+  );
+  check("manual action is Send now", /Send now/i.test(waiting.button), waiting.button);
+  check("does not show the old Not sent copy", !/Not sent/i.test(waiting.text), waiting.text);
+
+  const jobB = await swipeRightSettled(page);
+  const jobC = await swipeRightSettled(page);
+  check("queued two more likes", Boolean(jobB && jobC), `${jobB && jobB.id}, ${jobC && jobC.id}`);
+
+  const counted = await queueBarState(page);
+  check(
+    "bar reflects three queued likes",
+    /Waiting to send 3, retrying automatically|Sending 3…/.test(counted.text),
+    counted.text
+  );
+
+  // Let automatic backoff drain the queue (first retry is 1.8s, then fast).
+  await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return ui.hidden && ui.queue.length === 0 && !ui.sending;
+  }, 8000, "queue to drain automatically");
+
+  const retryPosts = readLog().slice(retryLogStart);
+  const okPosts = retryPosts.filter((p) => p.status === 200);
+  const failPosts = retryPosts.filter((p) => p.status === 503);
+  const okIds = okPosts.map((p) => p.body?.job?.id);
+  const expectedIds = [jobA.id, jobB.id, jobC.id];
+  check("transient failures were recorded before success", failPosts.length === 2, String(failPosts.length));
+  check(
+    "successful posts drain in swipe order",
+    JSON.stringify(okIds) === JSON.stringify(expectedIds),
+    JSON.stringify(okIds)
+  );
+  check(
+    "posted payloads stay in the original format",
+    okPosts.every((p) => p.body?.action === "apply" && p.body?.job?.id && typeof p.body?.swipedAt === "string"),
+  );
+  const retryStats = await hookStats();
+  check("never sent two applies at once", retryStats.maxInFlight === 1, JSON.stringify(retryStats));
+  const afterDrain = await queueBarState(page);
+  check("bar hides when the queue is empty", afterDrain.hidden);
+
+  // Coming back online should retry immediately instead of waiting out a long backoff.
+  const onlineLogStart = readLog().length;
+  await hookControl({ failNext: 1, failStatus: 503, delayMs: 80 });
+  await page.evaluate(() => window.JobSwipe.setBackoffMs([30000, 30000, 30000, 30000]));
+  const jobOnline = await swipeRightSettled(page);
+  await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return !ui.hidden && !ui.sending && /retrying automatically/i.test(ui.text) ? ui : null;
+  }, 4000, "waiting status before online retry");
+  const beforeOnline = readLog().slice(onlineLogStart).length;
+  await hookControl({ failNext: 0, failStatus: 503, delayMs: 80 });
+  await page.evaluate(() => window.dispatchEvent(new Event("online")));
+  await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return ui.hidden && ui.queue.length === 0;
+  }, 4000, "online event to flush the queue");
+  const afterOnline = readLog().slice(onlineLogStart);
+  const onlineOk = afterOnline.filter((p) => p.status === 200);
+  check("online event retries without waiting the full backoff", onlineOk.length >= 1 && onlineOk[0].body?.job?.id === jobOnline.id, String(afterOnline.length));
+  check("online retry happened after the failure (did not wait 30s)", afterOnline.length > beforeOnline, String(afterOnline.length));
+
+  // Undo should drop a like that is still queued.
+  await hookControl({ failNext: 20, failStatus: 503, delayMs: 40 });
+  await page.evaluate(() => window.JobSwipe.setBackoffMs([20000, 20000, 20000, 20000]));
+  const jobUndo = await swipeRightSettled(page);
+  await waitUntil(async () => (await queueBarState(page)).queue.includes(jobUndo.id), 4000, "undone job to appear in the queue");
+  await page.evaluate(() => window.JobSwipe.undo());
+  await delay(200);
+  const afterUndo = await queueBarState(page);
+  check("undo drops a queued like", !afterUndo.queue.includes(jobUndo.id), JSON.stringify(afterUndo.queue));
+
+  // A rejected key should use the error tone and not auto-retry.
+  const authLogStart = readLog().length;
+  await hookControl({ failNext: 5, failStatus: 401, delayMs: 40 });
+  await page.evaluate(() => window.JobSwipe.setBackoffMs([200, 200, 200, 200]));
+  const jobAuth = await swipeRightSettled(page);
+  const authUi = await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return !ui.hidden && ui.error ? ui : null;
+  }, 4000, "auth error status");
+  check("401 uses the error tone", authUi.error);
+  check(
+    "401 points the user to Settings",
+    /Couldn't send.*Settings/i.test(authUi.text),
+    authUi.text
+  );
+  const postsAt401 = readLog().slice(authLogStart).length;
+  await delay(700);
+  const postsAfterWait = readLog().slice(authLogStart).length;
+  check("401 does not auto-retry", postsAfterWait === postsAt401, `${postsAt401} -> ${postsAfterWait}`);
+
+  await hookControl({ failNext: 0, failStatus: 503, delayMs: 40 });
+  await page.evaluate(() => window.JobSwipe.sendNow());
+  await waitUntil(async () => {
+    const ui = await queueBarState(page);
+    return ui.hidden && ui.queue.length === 0 && !ui.sending;
+  }, 4000, "Send now to flush a recovered 401");
+  const authOk = readLog().slice(authLogStart).filter((p) => p.status === 200);
+  check("Send now delivers the job after the key is accepted", authOk.some((p) => p.body?.job?.id === jobAuth.id));
+  const authDone = await queueBarState(page);
+  check("error tone clears after a successful send", authDone.hidden && !authDone.error);
 
   results.console = consoleLines;
   await browser.close();

@@ -54,9 +54,9 @@
       </div>
     </main>
 
-    <div class="queue-bar" id="queue-bar" hidden>
-      <span id="queue-label">Not sent, retry</span>
-      <button type="button" id="retry-btn">Retry queued</button>
+    <div class="queue-bar" id="queue-bar" role="status" aria-live="polite" hidden>
+      <span id="queue-label">Waiting to send, retrying automatically</span>
+      <button type="button" id="retry-btn">Send now</button>
     </div>
 
     <footer class="actions">
@@ -106,7 +106,7 @@
       <button class="primary" type="submit">Save</button>
     </form>
     <p class="saved-flag" id="saved-flag"></p>
-    <button class="linkish" type="button" id="retry-from-settings">Retry queued applies</button>
+    <button class="linkish" type="button" id="retry-from-settings">Send queued applies now</button>
   </aside>
 
   <script src="app.js"></script>

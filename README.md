@@ -33,7 +33,7 @@ On a successful right swipe the app POSTs:
 { "action": "apply", "job": { /* full job object */ }, "swipedAt": "2026-11-14T15:00:00.000Z" }
 ```
 
-Failed posts (network, CORS, or a non-2xx) are queued in `localStorage`. A “Not sent, retry” badge appears; use **Retry queued**.
+Failed posts (network, CORS, or a non-2xx) are queued in `localStorage` and sent one at a time. The app retries automatically with backoff (30s, 1m, 2m, then every 5m), and also when you reopen the page, come back online, or bring the tab to the front. A calm status bar shows “Sending…” or “Waiting to send, retrying automatically.” Use **Send now** to try immediately. A rejected key (401 or 403) shows an error and points you to Settings instead of auto-retrying.
 
 Left swipes never hit the network. Undo brings the last card back and drops it from the queue if it was not yet sent.
 

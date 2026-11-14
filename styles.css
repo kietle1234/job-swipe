@@ -438,11 +438,17 @@ a { color: inherit; }
   margin: 4px 0 4px;
   padding: 8px 12px;
   border-radius: 12px;
-  background: var(--nope-bg);
-  color: var(--nope);
+  background: var(--bg-2);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
   font-size: 13px;
   font-weight: 600;
   flex: 0 0 auto;
+}
+.queue-bar.is-error {
+  background: var(--nope-bg);
+  color: var(--nope);
+  border-color: transparent;
 }
 .queue-bar button {
   padding: 6px 10px;

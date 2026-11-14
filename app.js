@@ -48,6 +48,11 @@
   let drag = null;
   let busy = false;
   let toastTimer = 0;
+  let drainBusy = false;
+  let authDenied = false;
+  let retryTimer = 0;
+  let failCount = 0;
+  let backoffMs = [30_000, 60_000, 120_000, 300_000];
 
   function loadJson(key, fallback) {
     try {
@@ -203,11 +208,32 @@
     const n = getQueue().length;
     if (n === 0) {
       els.queueBar.hidden = true;
+      els.queueBar.classList.remove("is-error");
       return;
     }
     els.queueBar.hidden = false;
-    els.queueLabel.textContent =
-      n === 1 ? "Not sent, retry" : `Not sent (${n}), retry`;
+    if (authDenied) {
+      els.queueBar.classList.add("is-error");
+      els.queueLabel.textContent =
+        n === 1
+          ? "Couldn't send — check the key in Settings"
+          : `Couldn't send ${n} — check the key in Settings`;
+    } else {
+      els.queueBar.classList.remove("is-error");
+      if (drainBusy) {
+        els.queueLabel.textContent = n === 1 ? "Sending…" : `Sending ${n}…`;
+      } else if (!getSettings().webhookUrl) {
+        els.queueLabel.textContent =
+          n === 1
+            ? "Waiting to send — add a webhook in Settings"
+            : `Waiting to send ${n} — add a webhook in Settings`;
+      } else {
+        els.queueLabel.textContent =
+          n === 1
+            ? "Waiting to send, retrying automatically"
+            : `Waiting to send ${n}, retrying automatically`;
+      }
+    }
   }
 
   function topCard() {
@@ -396,29 +422,21 @@
     };
   }
 
-  async function sendApply(job, record) {
-    const settings = getSettings();
+  function sendApply(job, record) {
     const payload = payloadFor(job, record && record.at);
-    if (!settings.webhookUrl) {
-      enqueue(payload);
+    enqueue(payload);
+    if (!getSettings().webhookUrl) {
       toast("No webhook set — queued");
-      return;
     }
-    try {
-      const res = await fetch(settings.webhookUrl, {
-        method: "POST",
-        headers: buildHeaders(settings),
-        body: JSON.stringify(payload),
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      if (record) record.sent = true;
-      saveJson(STORAGE.swiped, swiped);
-      toast("Sent to apply");
-    } catch (err) {
-      enqueue(payload);
-      toast("Not sent, retry");
-      console.warn("Apply POST failed:", err);
-    }
+    requestDrain();
+  }
+
+  function postBodyFrom(payload) {
+    return {
+      action: payload && payload.action ? payload.action : "apply",
+      job: payload && payload.job,
+      swipedAt: payload && payload.swipedAt,
+    };
   }
 
   function enqueue(payload) {
@@ -430,43 +448,152 @@
     setQueue(next);
   }
 
-  async function retryQueue() {
-    const settings = getSettings();
+  function clearRetryTimer() {
+    if (retryTimer) {
+      clearTimeout(retryTimer);
+      retryTimer = 0;
+    }
+  }
+
+  function backoffDelay() {
+    const idx = Math.max(0, Math.min(failCount - 1, backoffMs.length - 1));
+    return backoffMs[idx] ?? 300_000;
+  }
+
+  function scheduleRetry() {
+    clearRetryTimer();
+    const wait = backoffDelay();
+    retryTimer = setTimeout(() => {
+      retryTimer = 0;
+      requestDrain({ immediate: true });
+    }, wait);
+    renderQueueBar();
+  }
+
+  function requestDrain(opts = {}) {
+    const immediate = !!opts.immediate;
+    if (drainBusy) {
+      renderQueueBar();
+      return;
+    }
+    const q = getQueue();
+    if (!q.length) {
+      failCount = 0;
+      authDenied = false;
+      clearRetryTimer();
+      renderQueueBar();
+      return;
+    }
+    if (!immediate && retryTimer) {
+      renderQueueBar();
+      return;
+    }
+    drainNext();
+  }
+
+  function sendNow() {
     const q = getQueue();
     if (!q.length) {
       toast("Nothing queued");
       return;
     }
-    if (!settings.webhookUrl) {
+    if (!getSettings().webhookUrl) {
       openSettings();
       toast("Add a webhook URL first");
       return;
     }
-    const still = [];
-    let sent = 0;
-    for (const payload of q) {
-      try {
-        const res = await fetch(settings.webhookUrl, {
-          method: "POST",
-          headers: buildHeaders(settings),
-          body: JSON.stringify(payload),
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        sent += 1;
-        const id = payload.job && payload.job.id;
-        if (id) {
-          const rec = swiped.find((s) => s.id === id && s.dir === "right");
-          if (rec) rec.sent = true;
+    authDenied = false;
+    clearRetryTimer();
+    requestDrain({ immediate: true });
+  }
+
+  function markSent(id) {
+    if (!id) return;
+    const rec = swiped.find((s) => s.id === id && s.dir === "right");
+    if (rec) rec.sent = true;
+    saveJson(STORAGE.swiped, swiped);
+  }
+
+  function stillQueued(payload) {
+    const q = getQueue();
+    const id = payload && payload.job && payload.job.id;
+    if (id) return q.some((p) => p.job && p.job.id === id);
+    return q.includes(payload) || (q[0] && q[0].swipedAt === payload.swipedAt);
+  }
+
+  function dropFromQueue(payload) {
+    const id = payload && payload.job && payload.job.id;
+    const q = getQueue();
+    const next = id ? q.filter((p) => !(p.job && p.job.id === id)) : q.filter((p) => p !== payload);
+    setQueue(next);
+  }
+
+  async function drainNext() {
+    if (drainBusy) return;
+    const settings = getSettings();
+    const q = getQueue();
+    if (!q.length) {
+      failCount = 0;
+      authDenied = false;
+      clearRetryTimer();
+      renderQueueBar();
+      return;
+    }
+    if (!settings.webhookUrl) {
+      renderQueueBar();
+      return;
+    }
+
+    const payload = q[0];
+    const body = postBodyFrom(payload);
+    drainBusy = true;
+    renderQueueBar();
+
+    let status = 0;
+    try {
+      const res = await fetch(settings.webhookUrl, {
+        method: "POST",
+        headers: buildHeaders(settings),
+        body: JSON.stringify(body),
+      });
+      status = res.status;
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+      // Undo may have dropped this like while the request was in flight.
+      let applied = false;
+      if (stillQueued(payload)) {
+        markSent(body.job && body.job.id);
+        dropFromQueue(payload);
+        applied = true;
+      }
+      failCount = 0;
+      authDenied = false;
+      drainBusy = false;
+      if (applied && !getQueue().length) toast("Sent to apply");
+      requestDrain({ immediate: true });
+    } catch (err) {
+      drainBusy = false;
+      console.warn("Apply POST failed:", err);
+      // If the user already undid this like, don't hold later swipes on its backoff.
+      if (!stillQueued(payload)) {
+        if (!getQueue().length) {
+          failCount = 0;
+          authDenied = false;
+          clearRetryTimer();
         }
-      } catch {
-        still.push(payload);
+        renderQueueBar();
+        requestDrain({ immediate: true });
+        return;
+      }
+      authDenied = status === 401 || status === 403;
+      failCount += 1;
+      if (authDenied) {
+        clearRetryTimer();
+        renderQueueBar();
+      } else {
+        scheduleRetry();
       }
     }
-    saveJson(STORAGE.swiped, swiped);
-    setQueue(still);
-    if (sent && !still.length) toast("Sent to apply");
-    else if (sent) toast(`Sent ${sent}, ${still.length} still queued`);
-    else toast("Not sent, retry");
   }
 
   function undo() {
@@ -478,6 +605,11 @@
     if (last && last.dir === "right" && !last.sent) {
       const q = getQueue().filter((p) => !(p.job && p.job.id === last.id));
       setQueue(q);
+      if (!q.length) {
+        failCount = 0;
+        authDenied = false;
+        clearRetryTimer();
+      }
     }
     renderDeck();
     if (last && last.dir === "right" && last.sent) {
@@ -537,6 +669,9 @@
     saveJson(STORAGE.settings, { webhookUrl, senderKey, authHeader });
     els.savedFlag.textContent = "Saved on this device only.";
     toast("Settings saved");
+    authDenied = false;
+    clearRetryTimer();
+    requestDrain({ immediate: true });
   }
 
   function setFilter(next) {
@@ -606,8 +741,8 @@
     els.settingsClose.addEventListener("click", closeSettings);
     els.backdrop.addEventListener("click", closeSettings);
     els.form.addEventListener("submit", saveSettings);
-    els.retryBtn.addEventListener("click", retryQueue);
-    els.retryFromSettings.addEventListener("click", retryQueue);
+    els.retryBtn.addEventListener("click", sendNow);
+    els.retryFromSettings.addEventListener("click", sendNow);
     $$(".lane").forEach((btn) => {
       btn.addEventListener("click", () => setFilter(btn.dataset.lane));
     });
@@ -626,6 +761,17 @@
     });
   }
 
+  function onOnlineOrVisible() {
+    if (document.visibilityState && document.visibilityState !== "visible") return;
+    if (!getQueue().length) return;
+    if (authDenied) {
+      renderQueueBar();
+      return;
+    }
+    clearRetryTimer();
+    requestDrain({ immediate: true });
+  }
+
   // Expose a tiny test hook used by the headless check.
   window.JobSwipe = {
     getSettings,
@@ -635,6 +781,11 @@
     swipeLeft: () => triggerButton("left"),
     undo,
     ready: () => allJobs.length > 0,
+    sendNow,
+    isSending: () => drainBusy,
+    setBackoffMs: (arr) => {
+      if (Array.isArray(arr) && arr.length) backoffMs = arr.map(Number);
+    },
   };
 
   bindUi();
@@ -642,4 +793,7 @@
   renderQueueBar();
   loadJobs();
   registerSw();
+  window.addEventListener("online", onOnlineOrVisible);
+  document.addEventListener("visibilitychange", onOnlineOrVisible);
+  requestDrain({ immediate: true });
 })();
