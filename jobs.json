@@ -1,73 +1,213 @@
 {
-  "updatedAt": "2026-11-14T09:00:00-06:00",
+  "updatedAt": "2026-11-14T10:25:00-06:00",
   "jobs": [
     {
-      "id": "sample-cu-ach-ops",
-      "sample": true,
-      "company": "First Community Credit Union",
-      "title": "ACH Operations Specialist",
-      "pay": "$72,000–$88,000",
-      "location": "Remote (US)",
-      "lane": "Banking",
+      "id": "granted-healthcare-advocate",
+      "company": "Granted",
+      "title": "Healthcare Advocate",
+      "pay": "$50,000+ (starts at $50,000; varies by experience and location)",
+      "location": "Remote (continental US)",
+      "lane": "Healthcare",
       "highlights": [
-        "Review originator onboarding packets and NACHA risk ratings",
-        "Work with BSA/AML on high-risk ODFI exception queues",
-        "Salesforce + in-house ACH origination platform"
+        "Own complex medical billing and insurance cases from AI handoff through resolution",
+        "Contact payers and providers to fix claims, billing errors, eligibility, and prior-auth issues",
+        "Help shape playbooks at a seed-stage advocacy startup"
       ],
-      "headsUp": "Sample listing. Requires 2+ years in ACH ops or payments risk; Series 7 not needed.",
-      "url": "https://example.com/jobs/sample-cu-ach-ops",
+      "headsUp": "Requires 2+ years of recent (last 2\u20133 years) patient advocacy, medical billing, health insurance, revenue cycle, or claims resolution experience. Schedule is 40 hours between 7am\u20139pm ET, with optional weekend shifts.",
+      "url": "https://jobs.ashbyhq.com/granted/6ea717cc-a8d7-4a8e-8833-0b7cbef4be5f",
+      "ats": "Ashby"
+    },
+    {
+      "id": "midi-eligibility-specialist-contract",
+      "company": "Midi Health",
+      "title": "Eligibility Specialist (Contract)",
+      "pay": "$20/hour",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Verify insurance coverage, benefits, and eligibility in Athena and payer portals",
+        "Track pre-authorizations and coordination of benefits to prevent denials",
+        "Work with billing and patients to clear eligibility holds"
+      ],
+      "headsUp": "1099 contractor role with no company benefits. Requires 2+ years of eligibility/insurance verification, including major commercial plans across multiple states in a telehealth model, plus Athena or similar EHR experience.",
+      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4708693005",
       "ats": "Greenhouse"
     },
     {
-      "id": "sample-health-revcycle",
-      "sample": true,
-      "company": "Northlake Health System",
-      "title": "Revenue Cycle Analyst — Patient Payments",
-      "pay": "$68,000–$82,000",
-      "location": "Chicago, IL (hybrid 2 days)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Reconcile lockbox, card, and ACH patient-pay files",
-        "Build exception reports for denials and returned payments",
-        "Epic Resolute and Excel-heavy weekly close"
-      ],
-      "headsUp": "Sample listing. Hybrid in the Loop; Illinois-based candidates preferred.",
-      "url": "https://example.com/jobs/sample-health-revcycle",
-      "ats": "Workday"
-    },
-    {
-      "id": "sample-bank-payments-risk",
-      "sample": true,
-      "company": "Harbor Meridian Bank",
-      "title": "Payments Risk Analyst, ACH Originators",
-      "pay": "$90,000–$110,000 + bonus",
-      "location": "Dallas, TX (remote-friendly)",
-      "lane": "Banking",
-      "highlights": [
-        "Score new originators and review existing portfolios quarterly",
-        "Write memos for the originator-review committee",
-        "SQL + Excel; exposure to FedACH and same-day windows"
-      ],
-      "headsUp": "Sample listing. Some travel to community-bank clients, about one week a quarter.",
-      "url": "https://example.com/jobs/sample-bank-payments-risk",
-      "ats": "Lever"
-    },
-    {
-      "id": "sample-healthtech-impl",
-      "sample": true,
-      "company": "Careledger Health",
-      "title": "Implementation Manager, Claims & Remittance",
-      "pay": "$48–$58/hr (contract, 6 months)",
+      "id": "midi-psr-billing",
+      "company": "Midi Health",
+      "title": "Patient Service Representative \u2014 Billing",
+      "pay": "$23/hour (full-time, non-exempt)",
       "location": "Remote (US)",
       "lane": "Healthcare",
       "highlights": [
-        "Stand up 835/837 and ERA posting for mid-size clinics",
-        "Translate payer rules into playbooks for ops teams",
-        "Coordinate with clearinghouses and practice managers"
+        "Handle patient billing and insurance questions in Zendesk",
+        "Help verify coverage before telehealth visits and explain financial responsibility",
+        "Includes health benefits, PTO, a company laptop, and a work-from-home stipend"
       ],
-      "headsUp": "Sample listing. W2 contract through a vendor; no benefits after 90 days unless converted.",
-      "url": "https://example.com/jobs/sample-healthtech-impl",
+      "headsUp": "Billing experience is preferred, not required, but the posting asks for 2\u20135 years of patient/customer experience plus 2 years each of Zendesk, an EMR (Athena preferred), and Google Workspace. Shifts are Mon\u2013Fri 9:00am\u20135:30pm or 1:00pm\u20139:30pm Chicago time.",
+      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4640952005",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "midi-rcm-specialist-contract",
+      "company": "Midi Health",
+      "title": "Revenue Cycle Specialist (Contract)",
+      "pay": "$25/hour",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Work Athena claim-hold and denial queues and follow up with payers",
+        "Handle patient billing questions, payment plans, and AR follow-up",
+        "Partner with clinical and credentialing teams to release held claims"
+      ],
+      "headsUp": "This is a 3-month 1099 contract with no benefits. It asks for 2\u20133+ years of medical billing/RCM and patient/insurance AR, plus hands-on Athena experience.",
+      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4726298005",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "leap-rcm-analyst",
+      "company": "Leap",
+      "title": "RCM Analyst",
+      "pay": "$50,000\u2013$55,000",
+      "location": "Remote (US, excluding AK, CA, CO, NY, and WA; Texas is eligible)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Build and submit clean claims to payers and TPAs for infusion treatments",
+        "Post payments and reconcile ERA/EOBs",
+        "Use an AI-assisted billing platform to review invoices and flag process gaps"
+      ],
+      "headsUp": "Requires 2+ years in medical billing, claims, or revenue cycle, plus working knowledge of HCPCS (especially J-codes), CPT, and ICD-10. Texas residents are eligible; AK, CA, CO, NY, and WA are excluded.",
+      "url": "https://jobs.ashbyhq.com/leap/e5eb1aaf-c9bd-4e18-8bb6-44b28c920364",
       "ats": "Ashby"
+    },
+    {
+      "id": "leap-care-operations-associate",
+      "company": "Leap",
+      "title": "Care Operations Associate",
+      "pay": "$51,000\u2013$63,000 + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Run benefit eligibility checks and keep coverage status current",
+        "Manage prior authorizations end to end across payers and specialty pharmacy partners",
+        "Chase missing documents and orders with provider offices so treatment is not delayed"
+      ],
+      "headsUp": "Requires 2+ years in a healthcare administrative or operations role supporting prior authorization or eligibility verification, and you must be able to work Central Time business hours.",
+      "url": "https://jobs.ashbyhq.com/leap/18f20283-b7e8-4fce-a3a1-393af114de79",
+      "ats": "Ashby"
+    },
+    {
+      "id": "leap-member-intake-coordinator",
+      "company": "Leap",
+      "title": "Member Intake Coordinator",
+      "pay": "$60,000\u2013$75,000 + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "High-volume outbound intake: 80\u2013100+ daily touchpoints by phone, SMS, and email",
+        "Own the member relationship from first outreach through handoff to the Care team",
+        "Healthcare or clinical experience is preferred, not required"
+      ],
+      "headsUp": "This is a high-volume outbound role, not a quiet back-office queue. You must be available 10am\u20136pm Pacific Time (12pm\u20138pm Chicago time). Prior healthcare experience is preferred only.",
+      "url": "https://jobs.ashbyhq.com/leap/32f57d65-2bb3-4506-8eb5-d9919d7a50bd",
+      "ats": "Ashby"
+    },
+    {
+      "id": "rula-sr-credentialing-enrollment",
+      "company": "Rula",
+      "title": "Sr. Credentialing & Enrollment Specialist",
+      "pay": "$80,000\u2013$91,200 + equity (base only; no bonus)",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Enroll providers with regional and national payers and support new payer launches",
+        "Guide providers through credentialing and enrollment steps",
+        "Document and improve processes for a remote-first mental health company"
+      ],
+      "headsUp": "Requires 3+ years working with or for health plans, networks, or CVOs, and 2+ years enrolling providers with regional or national payers. This is payer enrollment work, not claims adjudication.",
+      "url": "https://jobs.ashbyhq.com/rula/6e12bb1c-a5cf-4940-aab2-0313d9728c9c",
+      "ats": "Ashby"
+    },
+    {
+      "id": "headway-senior-operations-associate",
+      "company": "Headway",
+      "title": "Senior Operations Associate",
+      "pay": "$76,160\u2013$112,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Build and run scalable operations workflows that support patients, providers, and payers",
+        "Work at the intersection of operations, product, and data",
+        "Headway automates credentialing, claims, and payment reconciliation for therapists"
+      ],
+      "headsUp": "This is a process/product operations role, not a classic claims or member-services queue. Pay spans a wide range; the posting does not require prior clinical work, but healthcare-ops exposure helps.",
+      "url": "https://jobs.ashbyhq.com/headway/9040d21a-0b46-4a21-b778-02a4e9610647",
+      "ats": "Ashby"
+    },
+    {
+      "id": "imagine-pediatrics-coding-billing",
+      "company": "Imagine Pediatrics",
+      "title": "Medical Coding & Billing Specialist",
+      "pay": "$55,000\u2013$65,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Submit clean claims with accurate CPT, HCPCS, and ICD-10 codes",
+        "Blend coding review with billing follow-up to reduce denials",
+        "Support documentation improvements with providers and partner operations"
+      ],
+      "headsUp": "A current CPC certification through AAPC is required and will be verified before an offer. This will not be a fit without that credential.",
+      "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4747630005",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "ivx-health-insurance-follow-up",
+      "company": "IVX Health",
+      "title": "Insurance Follow-Up Specialist",
+      "pay": "$22\u2013$25/hour",
+      "location": "Remote (US); optional hybrid in Brentwood, TN",
+      "lane": "Healthcare",
+      "highlights": [
+        "Resolve 50\u2013100 insurance denials a day and work payer portals and clearinghouses",
+        "Follow up on Medicare specialty-drug coverage and commercial claims",
+        "Full-time role with benefits; BCBS Texas experience is called out as a plus"
+      ],
+      "headsUp": "Requires 5+ years in healthcare billing, claims, or insurance follow-up, plus ICD-10/CPT/HCPCS knowledge and Medicare collections experience. This is a high-volume denial queue, Monday\u2013Friday standard business hours.",
+      "url": "https://job-boards.greenhouse.io/ivxhealth/jobs/4473036009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "two-chairs-client-outreach",
+      "company": "Two Chairs",
+      "title": "Client Outreach Specialist",
+      "pay": "$60,000\u2013$65,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Engage people seeking mental health care and help them start treatment",
+        "Act as a trusted advisor, not just a scheduler, through the intake path",
+        "Fixed weekday schedule with a clearly posted salary range"
+      ],
+      "headsUp": "This is proactive outreach and conversion, closer to member intake than claims or billing. The schedule is fixed 9am\u20135pm Pacific Time (11am\u20137pm Chicago time). Prior healthcare experience is not required.",
+      "url": "https://www.twochairs.com/jobs?gh_jid=8732004002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "metro-vein-director-payor-relations",
+      "company": "Metro Vein Centers",
+      "title": "Director of Payor Relations",
+      "pay": "Not listed",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Own payer relationships, contracts, negotiations, and fee schedules for a regional clinic portfolio",
+        "Translate reimbursement terms into guidance for revenue cycle, finance, credentialing, and operations",
+        "Senior individual-contributor role across a 70+ clinic, multi-state network"
+      ],
+      "headsUp": "This is payer contracting and reimbursement strategy, not claims processing. Pay is not posted and the level implies senior healthcare-network experience. There are also clinic sites in the Houston area, but this posting is remote US.",
+      "url": "https://job-boards.greenhouse.io/metroveincenters/jobs/4464789009",
+      "ats": "Greenhouse"
     }
   ]
 }
