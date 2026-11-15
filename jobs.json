@@ -1,6 +1,214 @@
 {
-  "updatedAt": "2026-11-14T10:25:00-06:00",
+  "updatedAt": "2026-11-14T18:05:00-06:00",
   "jobs": [
+    {
+      "id": "climate-first-deposit-ops-advanced-specialist",
+      "company": "Climate First Bank",
+      "title": "Deposit Operations Advanced Specialist",
+      "pay": "Not listed",
+      "location": "Remote (US); Eastern Time hours",
+      "lane": "Banking",
+      "highlights": [
+        "Process ACH, RDC, wires, card transactions, corrections, NSF, and non-post items",
+        "Investigate and resolve exceptions and support Treasury Management backup (ACH, Positive Pay, wires, RDC, lockbox)",
+        "Support Jack Henry SilverLake post-conversion work at a remote-first values-driven bank"
+      ],
+      "headsUp": "Pay is not posted. This is a hands-on specialist role, not a manager title. Hours follow Eastern Time, and occasional U.S. travel is required for company events. The bank is a tobacco-free employer (non-smoker affirmation or a 90-day cessation commitment). Phoenix or Jack Henry SilverLake experience is preferred, not required.",
+      "url": "https://job-boards.greenhouse.io/climatefirstbank/jobs/4338310009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "climate-first-director-deposit-ops-treasury",
+      "company": "Climate First Bank",
+      "title": "Director, Deposit Operations & Treasury Management",
+      "pay": "Not listed",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Own day-to-day deposit operations: onboarding, wires, debit cards, ACH, checks/returns, and online banking",
+        "Lead the Treasury Management team and commercial TM operations",
+        "Set policies and controls, staff the team, and own audit/exam responses and conversions"
+      ],
+      "headsUp": "Pay is not posted. Requires 10+ years of banking experience and at least 3 years of management experience, plus comfort with deposit ops, treasury management, digital banking, and compliance. A bachelor's degree is preferred (equivalent banking experience may be considered). Jack Henry SilverLake experience is preferred.",
+      "url": "https://job-boards.greenhouse.io/climatefirstbank/jobs/4330927009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "rocket-money-bizops-manager-deposit-products",
+      "company": "Rocket Money",
+      "title": "Business Operations Manager \u2014 Deposit Products",
+      "pay": "$120,000\u2013$160,000 + bonus",
+      "location": "Remote (US); also listed for NYC, San Francisco, Washington, D.C., and Detroit",
+      "lane": "Banking",
+      "highlights": [
+        "Own business operations for FBO savings and a new high-yield savings product",
+        "Be the operational point of contact for bank partners, processors, and internal teams",
+        "Build procedures across exceptions, compliance, support, and escheatment"
+      ],
+      "headsUp": "This is product/business operations for deposit products, not a classic back-office ACH or wire queue. It asks for 4+ years in business operations, strategy, or product operations, and prefers experience launching deposit products at a regulated fintech.",
+      "url": "https://job-boards.greenhouse.io/truebill/jobs/8042051003",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "mission-lane-senior-treasury-analyst",
+      "company": "Mission Lane",
+      "title": "Senior Treasury Analyst",
+      "pay": "$82,000\u2013$97,000 + annual incentive and equity",
+      "location": "Remote (US); up to about four trips a year",
+      "lane": "Banking",
+      "highlights": [
+        "Own daily cash positions and execute and track wires and ACH for timely settlement",
+        "Help stand up treasury and liquidity processes for Mission Lane Bank as it moves toward a charter",
+        "Reconcile bank accounts and support ALCO, liquidity, and examiner reporting"
+      ],
+      "headsUp": "A bachelor's degree in finance, accounting, economics, or a related quantitative field is listed as a minimum, along with 4+ years in treasury, finance, accounting, or a comparable analytical role. This is bank treasury and liquidity work, not a deposit-operations queue. SQL and Python proficiency is desired; travel is up to about four times a year.",
+      "url": "https://job-boards.greenhouse.io/missionlane/jobs/8680126002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "garner-payments-operations-analyst",
+      "company": "Garner Health",
+      "title": "Payments Operations Analyst",
+      "pay": "$65,000\u2013$78,000 + equity",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Run weekly member payment cycles, funding, and the controls that keep payouts accurate",
+        "Work payment partners on file delivery, funding, error reports, and issue resolution",
+        "Investigate payment breaks end to end and improve trackers and workflows"
+      ],
+      "headsUp": "This sits on the Payments team within Claims Operations at a healthcare company, but the work is payment operations, not medical claims. It asks for 1\u20134 years in operations or analytics; payments, fintech, payroll, benefits, or healthcare experience is a plus, not a requirement. The posted range may be light for a current operations manager.",
+      "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6238643004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "gemini-senior-associate-fraud-operations",
+      "company": "Gemini",
+      "title": "Senior Associate, Fraud Operations",
+      "pay": "$43.50\u2013$58.00/hour (posted for New York; other locations may differ) + bonus and equity",
+      "location": "Remote (USA); also listed in New York and Miami. In-person onboarding is required.",
+      "lane": "Banking",
+      "highlights": [
+        "Investigate first-, second-, and third-party fraud, payment-instrument abuse, scams, and account takeovers",
+        "Review ACH, card, wallet, device, and blockchain data and suggest rule and policy updates",
+        "Prepare investigation reports and present findings to leadership"
+      ],
+      "headsUp": "Requires 3\u20135+ years of direct fraud investigative experience, including ACH and credit card fraud, plus 2\u20135+ years of scam and account-integrity investigations. This is a crypto/fintech fraud role, not bank deposit operations. All employees must onboard in person at a Gemini office, and the role may include on-call or extended hours during fraud events.",
+      "url": "https://job-boards.greenhouse.io/gemini/jobs/8328881",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "servbank-fraud-operations-team-lead",
+      "company": "Servbank",
+      "title": "Banking Fraud Operations Team Lead",
+      "pay": "$62,800\u2013$73,500",
+      "location": "Remote (US), unless you live within 50 miles of a Servbank office",
+      "lane": "Banking",
+      "highlights": [
+        "Lead a team of fraud analysts and investigators and prioritize the daily caseload",
+        "Refine fraud-prevention workflows and report metrics to senior management",
+        "Handle escalated investigations and stay aligned with compliance and risk partners"
+      ],
+      "headsUp": "Requires 5+ years in banking fraud operations and at least 2 years in a team lead or supervisory role \u2014 dedicated fraud operations, not general deposit-ops fraud review. If you live within 50 miles of a Servbank office (known locations include Illinois, Arizona, and New York; none in the Houston area), the role is in-office rather than remote. A bachelor's is listed; CFE is a plus.",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4442825",
+      "ats": "Paylocity"
+    },
+    {
+      "id": "servbank-deposit-operations-specialist",
+      "company": "Servbank",
+      "title": "Deposit Operations Specialist",
+      "pay": "$18.50\u2013$23.47/hour",
+      "location": "Remote (US), unless you live within 50 miles of a Servbank office",
+      "lane": "Banking",
+      "highlights": [
+        "Process incoming and outgoing wires, ACH, and check items to deadline",
+        "Handle exceptions, returns, adjustments, research, and balancing",
+        "Review deposit activity for fraud and investigate suspicious wires, ACH, and checks"
+      ],
+      "headsUp": "The posted pay is $18.50\u2013$23.47 an hour, well below a typical operations-manager range. Deposit-ops or treasury-ops experience is preferred, not required, and NACHA, Reg CC, and Reg E knowledge is called out. If you live within 50 miles of a Servbank office, the role is in-office rather than remote (no Houston office listed).",
+      "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4200274",
+      "ats": "Paylocity"
+    },
+    {
+      "id": "mercury-customer-support-specialist-risk",
+      "company": "Mercury",
+      "title": "Customer Support Specialist \u2014 Risk",
+      "pay": "$53,100\u2013$64,400 (US outside NYC, LA, Seattle, and the SF Bay Area; those markets are $58,900\u2013$71,600) + equity",
+      "location": "Remote (US); also listed for San Francisco, New York, and Portland",
+      "lane": "Banking",
+      "highlights": [
+        "Be the first point of contact for customers affected by risk actions such as account restrictions or closures",
+        "Handle written inquiries on restrictions, address updates, check disbursements, and business-structure changes",
+        "Coordinate with Mercury's AML, fraud, sanctions, and onboarding teams"
+      ],
+      "headsUp": "This is a customer-support role attached to risk operations, not a back-office payments or fraud-investigation queue. It asks for 2+ years in customer operations, ideally in fintech or banking, plus a foundational understanding of AML and risk. Mercury is a fintech, not an FDIC-insured bank.",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6260859004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "pathward-frmo-analyst-i",
+      "company": "Pathward, N.A.",
+      "title": "Fraud Risk Management & Operations (FRMO) Analyst I",
+      "pay": "$17.25\u2013$28.00/hour + annual performance incentive",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Triage first-line fraud alerts, including ACH monitoring and card authorizations",
+        "Investigate cases end to end, document findings for audit, and take card actions to limit loss",
+        "Handle inbound and outbound fraud-related calls and refer SAR/CTR work to BSA/AML"
+      ],
+      "headsUp": "This is an entry-level analyst role; the posting typically asks for less than two years of related experience, with exposure to fraud, payments, banking operations, or customer service required. The hourly range is well below a typical operations-manager range. Pathward has offices in several cities, but this posting is listed as remote.",
+      "url": "https://job-boards.greenhouse.io/pathward/jobs/6185752004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "jukebox-health-member-engagement-coordinator",
+      "company": "Jukebox Health",
+      "title": "Member Engagement Coordinator",
+      "pay": "$65,000\u2013$75,000 + new-hire equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Be the first voice for members and guide them from first call through project completion",
+        "Make high-volume outbound calls to schedule occupational-therapy evaluations and send updates",
+        "Handle inbound member questions and partner communications in a CRM"
+      ],
+      "headsUp": "Requires 2+ years in a high-volume, phone-based customer or client-services role. This is outbound member coordination for a home-modification program, not claims or billing. Healthcare, managed care, or home-health experience is preferred, not required. Spanish is a plus only.",
+      "url": "https://job-boards.greenhouse.io/jukeboxhealth/jobs/4450415009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "workit-health-member-experience-specialist",
+      "company": "Workit Health",
+      "title": "Member Experience Specialist",
+      "pay": "$22.50/hour",
+      "location": "Remote (US); hours 9:30am\u20136:00pm Pacific Time (11:30am\u20138:00pm Chicago time)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Be the main point of contact for people joining and staying in a telemedicine addiction-treatment program",
+        "Answer inquiries by phone, email, and chat and help members enroll and navigate the app",
+        "Prior healthcare experience is not required; customer-service experience is"
+      ],
+      "headsUp": "This is member support and enrollment, not claims or back-office operations. It requires customer-service experience and a fixed 9:30am\u20136:00pm Pacific schedule (11:30am\u20138:00pm Chicago time). The pay is a posted flat $22.50 an hour.",
+      "url": "https://job-boards.greenhouse.io/workithealth/jobs/4476518009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "garner-concierge-associate",
+      "company": "Garner Health",
+      "title": "Concierge Associate",
+      "pay": "$22/hour (plus $0.50/hour for English/Spanish bilingual)",
+      "location": "Remote (US); shifts scheduled between 8:00am and 10:00pm Eastern Time",
+      "lane": "Healthcare",
+      "highlights": [
+        "Guide members by phone, chat, and email as they use their healthcare benefits",
+        "Help people find high-quality, lower-cost care and explain benefits and claims at a high level",
+        "Healthcare experience is preferred, not required; 2+ years of call-center or customer-service experience is required"
+      ],
+      "headsUp": "This is a member-facing concierge role, not payments or claims operations. Shifts fall between 8:00am and 10:00pm Eastern, and preferences are collected in interviews but not guaranteed. A five-week training period precedes the final schedule. The Spanish bilingual bump does not apply to English/Vietnamese.",
+      "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6261929004",
+      "ats": "Greenhouse"
+    },
     {
       "id": "granted-healthcare-advocate",
       "company": "Granted",
