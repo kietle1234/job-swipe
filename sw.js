@@ -1,5 +1,5 @@
 /* Job Swipe service worker — cache app shell + jobs for offline viewing. */
-const CACHE = "job-swipe-v4";
+const CACHE = "job-swipe-v5";
 const PRECACHE = [
   "./",
   "./index.html",

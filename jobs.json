@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T18:05:00-06:00",
+  "updatedAt": "2026-11-16T07:03:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -159,6 +159,86 @@
       ],
       "headsUp": "This is an entry-level analyst role; the posting typically asks for less than two years of related experience, with exposure to fraud, payments, banking operations, or customer service required. The hourly range is well below a typical operations-manager range. Pathward has offices in several cities, but this posting is listed as remote.",
       "url": "https://job-boards.greenhouse.io/pathward/jobs/6185752004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "onpay-manager-financial-operations",
+      "company": "OnPay",
+      "title": "Manager, Financial Operations",
+      "pay": "$90,000\u2013$100,000 base + bonus and stock options",
+      "location": "Remote (US); Atlanta HQ optional",
+      "lane": "Banking",
+      "highlights": [
+        "Lead the Money Movement and Payroll Settlement team across Same-Day ACH, standard ACH, wire, RTP, and FedNow",
+        "Own ACH returns (R01, R03, R08), reversals, trace requests, NSF and fraud/exposure monitoring",
+        "AAP is called out by name, and the role centers on NACHA rules, cut-offs, and bank-partner relationships"
+      ],
+      "headsUp": "Asks for 5+ years in financial, treasury, payment, or payroll operations with 2+ years managing teams. It also lists prior experience at a payroll provider, PEO, merchant processor, or B2B embedded fintech, which a community-bank background does not directly cover. Bachelor's degree or equivalent experience. Ledger and three-way reconciliation work is part of the job.",
+      "url": "https://careers.onpay.com/jobs/8625036-manager-financial-operations",
+      "ats": "Teamtailor"
+    },
+    {
+      "id": "ramp-fraud-operations-specialist",
+      "company": "Ramp",
+      "title": "Fraud Operations Specialist",
+      "pay": "$80K\u2013$155K + equity (multiple ranges)",
+      "location": "Remote (US); also listed for New York (HQ), San Francisco, and remote Canada",
+      "lane": "Banking",
+      "highlights": [
+        "Investigate first- and third-party fraud alerts on new applications and account activity",
+        "Work card disputes within network timelines and handle funds recovery with banks and law enforcement",
+        "NACHA rules, ACH recalls, and hold-harmless letters are listed as nice-to-haves"
+      ],
+      "headsUp": "Requires 2+ years in fraud prevention or investigations and experience in cards, payments, invoices, lending, or a related industry. You must be able to work nights, weekends, and holidays on a rotating 24/7 schedule. The pay range is wide and spans multiple levels.",
+      "url": "https://jobs.ashbyhq.com/ramp/b6132946-62e7-4ed4-9b93-f7cbe0e2c1fe",
+      "ats": "Ashby"
+    },
+    {
+      "id": "ramp-risk-operations-specialist-onboarding",
+      "company": "Ramp",
+      "title": "Risk Operations Specialist, Onboarding",
+      "pay": "$100K\u2013$155K + equity (multiple ranges)",
+      "location": "Remote (US); also listed for New York (HQ) and San Francisco",
+      "lane": "Banking",
+      "highlights": [
+        "Apply Ramp's underwriting policy to onboard businesses for corporate cards and bill pay",
+        "Manage credit and fraud risk while supporting applicants by phone and email",
+        "Build monitoring for underwriting outcomes and losses with product and engineering"
+      ],
+      "headsUp": "Requires 1\u20132 years in underwriting, credit risk, or fraud risk management and lists a BA/BS from an accredited university as a requirement. The workweek is Sunday\u2013Thursday. This is credit/underwriting-leaning risk work rather than deposit operations.",
+      "url": "https://jobs.ashbyhq.com/ramp/55bd9ab4-8edc-4493-b577-4277ad2f9ae6",
+      "ats": "Ashby"
+    },
+    {
+      "id": "slope-fraud-analyst",
+      "company": "Slope",
+      "title": "Fraud Analyst",
+      "pay": "$100K\u2013$140K",
+      "location": "Remote (posting lists location as TBD; fully remote team across time zones)",
+      "lane": "Banking",
+      "highlights": [
+        "Manually review new applications and existing customer and provider accounts for fraud",
+        "Triage alerts, manage large fraud cases, and monitor transactional activity",
+        "Support bank audits, monitoring and testing, and suspicious-activity detection"
+      ],
+      "headsUp": "Asks for 3+ years of banking or fintech experience, preferably investigative or fraud-related, and a bachelor's degree or equivalent experience. The posting does not spell out which countries or states are eligible, so confirm US remote eligibility. It is data-heavy; CAMS, CFCS, or CFE is a plus.",
+      "url": "https://jobs.ashbyhq.com/slope/30572336-c841-4930-a35b-a4bf766cbb0d",
+      "ats": "Ashby"
+    },
+    {
+      "id": "climate-first-treasury-management-specialist",
+      "company": "Climate First Bank",
+      "title": "Treasury Management Specialist",
+      "pay": "Not listed",
+      "location": "Remote (US); Eastern Time hours",
+      "lane": "Banking",
+      "highlights": [
+        "Implement and maintain commercial Treasury Management and Business Online Banking clients",
+        "Set up ACH origination, domestic and international wires, Positive Pay, and RDC with entitlements and limits",
+        "AAP is listed as a plus and NACHA knowledge is preferred"
+      ],
+      "headsUp": "Pay is not posted. At least one year of hands-on Jack Henry experience is listed as required (SilverLake or Jack Henry Treasury Management strongly preferred), so this only fits if you have used Jack Henry. Hours follow Eastern Time, occasional U.S. travel is required, and the bank is a tobacco-free employer.",
+      "url": "https://job-boards.greenhouse.io/climatefirstbank/jobs/4463617009",
       "ats": "Greenhouse"
     },
     {
@@ -415,6 +495,38 @@
       ],
       "headsUp": "This is payer contracting and reimbursement strategy, not claims processing. Pay is not posted and the level implies senior healthcare-network experience. There are also clinic sites in the Houston area, but this posting is remote US.",
       "url": "https://job-boards.greenhouse.io/metroveincenters/jobs/4464789009",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "grow-therapy-client-billing-support",
+      "company": "Grow Therapy",
+      "title": "Specialist I, Client Billing Support",
+      "pay": "$20.00\u2013$24.04/hour + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Help therapy clients and providers with billing and insurance questions by chat, messaging, and phone",
+        "Needs only 1+ year in a customer-facing role; insurance and billing knowledge is a nice-to-have",
+        "Translate insurance and billing details into plain language for clients"
+      ],
+      "headsUp": "Hourly pay is well below an operations-manager level. The current shift is 12pm\u20139pm Eastern (11am\u20138pm Chicago time). Remote roles include 2\u20133 trips a year for offsites. Health insurance or claims familiarity is listed only as a nice-to-have.",
+      "url": "https://jobs.ashbyhq.com/grow-therapy/3b1aee96-d85b-4bc5-bab6-4f3c6c7a3bb0",
+      "ats": "Ashby"
+    },
+    {
+      "id": "ophelia-patient-engagement-specialist",
+      "company": "Ophelia",
+      "title": "Patient Engagement Specialist",
+      "pay": "$50,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "First point of contact for patients of a telehealth opioid-use-disorder treatment program",
+        "High-volume patient communication through a ticketing system and other channels",
+        "Healthcare background is preferred, not required; customer-support experience counts"
+      ],
+      "headsUp": "The salary is a single posted figure of $50,000. The role includes weekend coverage: either Tuesday\u2013Saturday or Sunday\u2013Thursday, on Eastern Time hours (about 8am\u20134pm Chicago time). It is patient-facing support, not back-office operations.",
+      "url": "https://job-boards.greenhouse.io/ophelia/jobs/5477123008",
       "ats": "Greenhouse"
     }
   ]
