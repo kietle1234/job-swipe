@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T07:03:00-06:00",
+  "updatedAt": "2026-11-17T07:07:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -322,22 +322,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "midi-psr-billing",
-      "company": "Midi Health",
-      "title": "Patient Service Representative \u2014 Billing",
-      "pay": "$23/hour (full-time, non-exempt)",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Handle patient billing and insurance questions in Zendesk",
-        "Help verify coverage before telehealth visits and explain financial responsibility",
-        "Includes health benefits, PTO, a company laptop, and a work-from-home stipend"
-      ],
-      "headsUp": "Billing experience is preferred, not required, but the posting asks for 2\u20135 years of patient/customer experience plus 2 years each of Zendesk, an EMR (Athena preferred), and Google Workspace. Shifts are Mon\u2013Fri 9:00am\u20135:30pm or 1:00pm\u20139:30pm Chicago time.",
-      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4640952005",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "midi-rcm-specialist-contract",
       "company": "Midi Health",
       "title": "Revenue Cycle Specialist (Contract)",
@@ -528,6 +512,102 @@
       "headsUp": "The salary is a single posted figure of $50,000. The role includes weekend coverage: either Tuesday\u2013Saturday or Sunday\u2013Thursday, on Eastern Time hours (about 8am\u20134pm Chicago time). It is patient-facing support, not back-office operations.",
       "url": "https://job-boards.greenhouse.io/ophelia/jobs/5477123008",
       "ats": "Greenhouse"
+    },
+    {
+      "id": "mission-lane-senior-operations-lead-fraud",
+      "company": "Mission Lane",
+      "title": "Senior Operations Lead, Fraud",
+      "pay": "$55,000\u2013$70,000 + annual incentive and equity",
+      "location": "Remote (US); 4\u20136 trips a year to Richmond, VA or other U.S. sites",
+      "lane": "Banking",
+      "highlights": [
+        "Lead a team of 13\u201315 Fraud Associates with 1:1 coaching, reviews, and career development",
+        "Be the escalation point for complex, high-risk fraud cases and difficult customer situations",
+        "Help shape coaching, escalation, and process improvement in a fraud ops team that is still scaling"
+      ],
+      "headsUp": "Base pay is modest for a people-lead role. It asks for 3+ years leading customer operations, risk, or fraud teams and working knowledge of fraud or credit card operations; the fraud here is credit card fraud, not deposit/ACH. Requires travel 4\u20136 times a year.",
+      "url": "https://job-boards.greenhouse.io/missionlane/jobs/8848599002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "figure-senior-treasury-finops-analyst",
+      "company": "Figure",
+      "title": "Senior Treasury and FinOps Analyst",
+      "pay": "$97,750\u2013$132,250",
+      "location": "Remote (US); Eastern Time business hours",
+      "lane": "Banking",
+      "highlights": [
+        "Daily cash positioning and bank balance reconciliation across multiple entities",
+        "Execute wires and ACH transfers under approval protocols and SOX controls, including wire callbacks and template oversight",
+        "Support loan-sale funding operations and month-end close with Accounting"
+      ],
+      "headsUp": "This is corporate treasury/financial operations at a blockchain lending company, not bank deposit ops. It asks for 3\u20135 years in funding, treasury, or financial operations and a bachelor's degree (business/finance-type field listed). Kyriba/TMS, cash forecasting, and mortgage lending experience are preferred, and Tableau/SQL comfort is expected over time. Eastern Time hours.",
+      "url": "https://job-boards.greenhouse.io/figure/jobs/8886061002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "pathward-bsa-aml-analyst-ii-partner-oversight",
+      "company": "Pathward, N.A.",
+      "title": "BSA AML Analyst II, Partner Oversight",
+      "pay": "$50,000\u2013$84,000 + annual performance incentive",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Second-line BSA/AML/CFT and OFAC oversight reviews of business lines and fintech partners",
+        "Assess internal controls, support remediation, and advise the first line on AML questions",
+        "Review new products and regulatory changes for BSA/OFAC impact"
+      ],
+      "headsUp": "This is a compliance (second line of defense) role, not operations. It asks for working knowledge of BSA/AML/CFT and OFAC plus 2\u20134 years of related compliance, risk, audit, or financial-crime experience. CAMS and third-party/partner oversight experience are preferred.",
+      "url": "https://job-boards.greenhouse.io/pathward/jobs/6225699004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "unite-us-operations-analyst",
+      "company": "Unite Us",
+      "title": "Operations Analyst",
+      "pay": "$55,000\u2013$62,000",
+      "location": "Remote (US); up to 5% travel",
+      "lane": "Healthcare",
+      "highlights": [
+        "Build and improve processes, playbooks, and training for the Platform Operations team",
+        "Manage platform configurations for community, healthcare, and government network organizations, including payments contract/fee schedule setup",
+        "Run quality assurance and data-integrity reviews and track team KPIs"
+      ],
+      "headsUp": "This is platform/process operations at a health-and-social-care network tech company, not patient-facing work; no healthcare experience is listed as required. It mentions experience with Jira or Asana-type task tools. Background check includes education verification.",
+      "url": "https://job-boards.greenhouse.io/uniteus/jobs/8944898002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "talkiatry-clinical-operations-coordinator",
+      "company": "Talkiatry",
+      "title": "Clinical Operations Coordinator",
+      "pay": "$24/hour",
+      "location": "Remote (US) or NYC HQ",
+      "lane": "Healthcare",
+      "highlights": [
+        "Triage and resolve clinician questions and escalations across communication channels",
+        "Process provider preference changes and manage patient transfers when providers exit",
+        "Coordinate clinician onboarding and schedules for clinical leadership"
+      ],
+      "headsUp": "Hourly pay is on the lower end. EMR familiarity (especially eClinicalWorks) is listed as a plus; healthcare experience is not stated as required. Bachelor's degree preferred, not required.",
+      "url": "https://jobs.ashbyhq.com/talkiatry/6965b58b-f0ea-4c07-bfac-2e9330ba53b4",
+      "ats": "Ashby"
+    },
+    {
+      "id": "grow-therapy-specialist-i-client-support",
+      "company": "Grow Therapy",
+      "title": "Specialist I, Client Support",
+      "pay": "$24.04/hour + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Support therapy clients and providers by chat, messaging, and phone",
+        "Explain insurance, billing, and platform questions in plain language and investigate root causes",
+        "Only requires 1+ year in any customer-facing role"
+      ],
+      "headsUp": "Entry-level, non-exempt support role with productivity and response-time targets and an assigned schedule. Pay is well below his current level. Insurance and billing topics will be learned on the job.",
+      "url": "https://jobs.ashbyhq.com/grow-therapy/736990d1-6bcc-4611-a63b-016fe9575d0c",
+      "ats": "Ashby"
     }
   ]
 }
