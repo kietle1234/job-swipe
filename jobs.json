@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T07:07:00-06:00",
+  "updatedAt": "2026-11-18T07:30:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -514,22 +514,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "mission-lane-senior-operations-lead-fraud",
-      "company": "Mission Lane",
-      "title": "Senior Operations Lead, Fraud",
-      "pay": "$55,000\u2013$70,000 + annual incentive and equity",
-      "location": "Remote (US); 4\u20136 trips a year to Richmond, VA or other U.S. sites",
-      "lane": "Banking",
-      "highlights": [
-        "Lead a team of 13\u201315 Fraud Associates with 1:1 coaching, reviews, and career development",
-        "Be the escalation point for complex, high-risk fraud cases and difficult customer situations",
-        "Help shape coaching, escalation, and process improvement in a fraud ops team that is still scaling"
-      ],
-      "headsUp": "Base pay is modest for a people-lead role. It asks for 3+ years leading customer operations, risk, or fraud teams and working knowledge of fraud or credit card operations; the fraud here is credit card fraud, not deposit/ACH. Requires travel 4\u20136 times a year.",
-      "url": "https://job-boards.greenhouse.io/missionlane/jobs/8848599002",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "figure-senior-treasury-finops-analyst",
       "company": "Figure",
       "title": "Senior Treasury and FinOps Analyst",
@@ -608,6 +592,134 @@
       "headsUp": "Entry-level, non-exempt support role with productivity and response-time targets and an assigned schedule. Pay is well below his current level. Insurance and billing topics will be learned on the job.",
       "url": "https://jobs.ashbyhq.com/grow-therapy/736990d1-6bcc-4611-a63b-016fe9575d0c",
       "ats": "Ashby"
+    },
+    {
+      "id": "ramp-manager-fraud-operations",
+      "company": "Ramp",
+      "title": "Manager, Fraud Operations",
+      "pay": "$155K\u2013$230K + equity (multiple ranges)",
+      "location": "Remote (US); also listed for New York (HQ), San Francisco, and Remote (Canada)",
+      "lane": "Banking",
+      "highlights": [
+        "Lead and grow a team of Fraud Operations Specialists who review alerts, investigate, and recover funds against SLAs",
+        "Own fraud response across payments, transactions, credit limit changes, and collections, including incident on-call and sensitive escalations",
+        "NACHA, Reg E, and Visa Core rules experience is listed as a nice-to-have"
+      ],
+      "headsUp": "Requires at least 8 years in risk management covering account takeovers and a broad range of payment fraud, plus at least 2 years building and managing teams. It also expects you to use AI in your daily work. This is card/fintech fraud (corporate cards, bill pay), not bank deposit operations. Includes on-call incident duties.",
+      "url": "https://jobs.ashbyhq.com/ramp/ad8bb2ef-9c8a-4379-829a-47143257a23b",
+      "ats": "Ashby"
+    },
+    {
+      "id": "mercury-senior-risk-investigator-fraud-incident",
+      "company": "Mercury",
+      "title": "Senior Risk Investigator \u2014 Fraud Incident Management & Partner Response",
+      "pay": "$138,800\u2013$173,500 (US outside NYC, LA, Seattle, and the SF Bay Area; those markets are $154,200\u2013$192,800) + equity",
+      "location": "Remote (US); also listed for San Francisco, New York, and Portland",
+      "lane": "Banking",
+      "highlights": [
+        "Lead fraud incidents across Mercury products: account takeover, card testing, mule/ring activity, and first-party fraud",
+        "Recommend containment, reimbursement, and account actions, then run the postmortems",
+        "Write incident reports and partner-bank or regulator responses alongside Mercury's bank partners (Choice, Column)"
+      ],
+      "headsUp": "Senior individual contributor role, not a people-manager title. Requires 6+ years in fraud investigations, risk operations, or financial crimes, with hands-on first- and third-party fraud casework and experience leading high-severity incidents. Strong writing for examiner- or executive-facing memos is a must.",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6251682004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "branch-compliance-analyst",
+      "company": "Branch",
+      "title": "Compliance Analyst",
+      "pay": "$90,000\u2013$97,000",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Review transaction-monitoring alerts (mostly cash/credit loads) and escalate unusual activity",
+        "Triage customer complaints for UDAAP and EFTA/Reg E issues and draft responses on deadline",
+        "NACHA rules and Reg CC/DD familiarity is listed as a plus"
+      ],
+      "headsUp": "Requires 2\u20134 years of compliance experience in financial services plus working knowledge of BSA/AML, OFAC, and Reg E. Deposit operations work counts only if you can frame it as compliance (for example, ACH rules audits as an AAP). CAMS or CRCM is a plus, not required.",
+      "url": "https://job-boards.greenhouse.io/branch/jobs/8207561003",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "pathward-fraud-analyst-advisor",
+      "company": "Pathward, N.A.",
+      "title": "Fraud Analyst Advisor",
+      "pay": "$72,000\u2013$120,000 + annual performance incentive",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Analyze fraud trends, loss drivers, and alert-to-case conversion at a national bank",
+        "Build fraud KPI/KRI reporting tied to BSA/AML and enterprise risk standards",
+        "Help tune fraud detection rules, thresholds, and segmentation"
+      ],
+      "headsUp": "This is an analytics-heavy role (large datasets, predictive analytics, model and rule monitoring), not an operations manager seat. It typically requires 8+ years of related experience with a bachelor's degree or equivalent. A master's degree is preferred, and consumer-credit experience is a plus.",
+      "url": "https://job-boards.greenhouse.io/pathward/jobs/6225532004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "column-compliance-analyst-contract",
+      "company": "Column",
+      "title": "Compliance Analyst (Contract)",
+      "pay": "$35.00\u2013$40.00/hour (non-exempt, overtime-eligible)",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Run compliance testing across Column N.A.'s products and its fintech partners",
+        "Document findings, find control gaps, and work with partners to fix them",
+        "Track regulatory changes and make sure processes are ready before effective dates"
+      ],
+      "headsUp": "This is a fixed-term six-month contract that may be extended. Requires 3+ years in compliance or audit and a bachelor's degree or equivalent experience. Your NACHA AAP and ACH audit work is the best angle. CRCM or CAMS is a plus.",
+      "url": "https://jobs.ashbyhq.com/column/fea359b9-5ac3-4812-a1f8-88fd6031cb89",
+      "ats": "Ashby"
+    },
+    {
+      "id": "oscar-senior-specialist-process-improvement-siu",
+      "company": "Oscar Health",
+      "title": "Senior Specialist, Process Improvement (SIU)",
+      "pay": "$67,813\u2013$89,005 + annual performance bonus (CA, CT, NJ, NY, WA: $75,348\u2013$98,894)",
+      "location": "Remote (US; Texas eligible, with some states excluded); occasional travel",
+      "lane": "Healthcare",
+      "highlights": [
+        "Handle Special Investigations Unit (fraud) intake, triage, and tip research at a health insurer",
+        "Run root-cause analysis on escalated issues and turn the findings into process and tech fixes",
+        "Healthcare experience isn't required. Operations-analyst and process-improvement backgrounds qualify"
+      ],
+      "headsUp": "Requires a bachelor's degree or 4+ years of equivalent experience, 2+ years in a technical, operations-analyst, or process-improvement role, and 2+ years working with large datasets in Excel or a database language. Expect data analysis and writing requirements more than casework.",
+      "url": "https://oscarhealth.com/careers/jobs/8312400-senior-specialist-process-improvement-siu?gh_jid=8312400",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "oscar-claims-processor-i",
+      "company": "Oscar Health",
+      "title": "Claims Processor I",
+      "pay": "$20/hour",
+      "location": "Remote; open only to residents of Arizona, Florida, Georgia, or Texas",
+      "lane": "Healthcare",
+      "highlights": [
+        "Entry-level claims role: review and process claims and help resolve claim status questions",
+        "Open to Texas residents, with the work done from a home office",
+        "Requires a high school diploma or GED (or equivalent experience)"
+      ],
+      "headsUp": "Pay is far below your banking level. Claims-system experience and a business, finance, or healthcare degree are 'bonus points', not requirements, but you'd be competing as someone with no claims background. Occasional travel for team meetings is possible.",
+      "url": "https://oscarhealth.com/careers/jobs/8353050-claims-processor-i?gh_jid=8353050",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "talkspace-senior-client-support-rep",
+      "company": "Talkspace",
+      "title": "Senior Client Support Representative",
+      "pay": "$18\u2013$22/hour",
+      "location": "Remote (US); Eastern Time schedule",
+      "lane": "Healthcare",
+      "highlights": [
+        "Handle escalated client issues by phone, chat, and email: coverage eligibility, billing, refunds, and service problems",
+        "Spot contact trends and report issues to leadership. Help train new hires as a subject-matter expert",
+        "Asks for 2 years of contact-center or similar customer-facing experience, with no healthcare background required"
+      ],
+      "headsUp": "Hourly pay is low for your experience. Works on an Eastern Time schedule, with productivity and quality benchmarks. Typing speed of about 50\u201360 wpm and a dependable internet connection are required. Zendesk and workforce-management experience are pluses.",
+      "url": "https://www.talkspace.com/careers/job?gh_jid=6240873004",
+      "ats": "Greenhouse"
     }
   ]
 }
