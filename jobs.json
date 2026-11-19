@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T07:30:00-06:00",
+  "updatedAt": "2026-11-19T07:30:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -720,6 +720,86 @@
       "headsUp": "Hourly pay is low for your experience. Works on an Eastern Time schedule, with productivity and quality benchmarks. Typing speed of about 50\u201360 wpm and a dependable internet connection are required. Zendesk and workforce-management experience are pluses.",
       "url": "https://www.talkspace.com/careers/job?gh_jid=6240873004",
       "ats": "Greenhouse"
+    },
+    {
+      "id": "upstart-fraud-analyst-secured-lending",
+      "company": "Upstart",
+      "title": "Fraud Analyst, Secured Lending",
+      "pay": "$115,800\u2013$160,100 base + target bonus and equity",
+      "location": "Remote (US); periodic team onsites",
+      "lane": "Banking",
+      "highlights": [
+        "First-line fraud detection and investigation for Upstart's HELOC and auto lending lines",
+        "Build case files, escalation packages, and SAR referrals; track fraud trends and typologies",
+        "Requires 3+ years of fraud investigation or financial crimes work at a bank or regulated lender"
+      ],
+      "headsUp": "This is lending fraud (application, identity, income, collateral, and dealer fraud), not deposit or ACH fraud, and the posting expects hands-on consumer-lending fraud and SAR/BSA knowledge. It asks for a bachelor's degree or equivalent practical experience. CFE is preferred. Teams meet in person once or twice a quarter for 2\u20134 days.",
+      "url": "https://careers.upstart.com/jobs?gh_jid=8401278",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "pathward-manager-bsa-aml-operations-cases",
+      "company": "Pathward, N.A.",
+      "title": "Manager, BSA/AML Operations \u2013 Cases (Case Operations)",
+      "pay": "$72,000\u2013$120,000",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "People-manager role leading a team of BSA/AML case analysts at a national bank",
+        "Own SAR referrals, CTR accuracy, 314(a) and law-enforcement responses, and queue SLAs",
+        "Quality review, procedures, and root-cause work across card, tax, payments, and deposit products"
+      ],
+      "headsUp": "Requires a bachelor's degree, solid BSA/AML investigations and transaction-monitoring (SAM) experience, and prior supervision of analysts. Actimize/FCRM knowledge is expected and CAMS is preferred. His background is fraud/disputes and deposit ops, so BSA case depth is the gap to address.",
+      "url": "https://job-boards.greenhouse.io/pathward/jobs/6225581004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "stripe-payments-fraud-investigator",
+      "company": "Stripe",
+      "title": "Payments Fraud Investigator",
+      "pay": "$114,600\u2013$171,800 base",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Investigate high-risk merchant accounts for fraud, card testing, and account takeover",
+        "Lead root-cause analyses and cross-functional projects to improve fraud detection",
+        "Deliver case determinations to users and partner financial institutions"
+      ],
+      "headsUp": "Requires 5+ years conducting complex investigations and 3+ years leading risk projects. Card-not-present/merchant fraud experience and strong SQL are preferred, not required. Up to 10% travel to vendor sites. Posted in early October, so it may fill soon.",
+      "url": "https://stripe.com/jobs/listing/payments-fraud-investigator/8261213",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "included-health-referral-support-advocate",
+      "company": "Included Health",
+      "title": "Referral Support Advocate (Contract)",
+      "pay": "$20/hour (contract-to-hire)",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Find high-quality doctors for members and coordinate appointment scheduling",
+        "Gather provider-office details (availability, insurance contracts, conditions treated)",
+        "Only requires 1+ year of data entry plus strong communication skills; no healthcare experience required"
+      ],
+      "headsUp": "Contract-to-hire at $20/hour, far below his banking pay. It is a queue-based role with speed and quality targets. Insurance plan knowledge is learned on the job.",
+      "url": "https://jobs.lever.co/includedhealth/795500b2-5c16-48b1-9472-485e211a1cc8",
+      "ats": "Lever"
+    },
+    {
+      "id": "lyra-health-manager-operations",
+      "company": "Lyra Health",
+      "title": "Manager, Operations (Clinical Ops \u2013 Enrollment)",
+      "pay": "$119,500\u2013$146,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Run a queue-based enrollment team: KPIs, schedule adherence, SLAs, and daily staffing",
+        "Act as the Salesforce/CRM process expert and write requirements for Product and Engineering",
+        "Requires 3+ years managing a contact center or queue-based operations team; healthcare experience is not listed as a requirement"
+      ],
+      "headsUp": "The posting wants deep Salesforce/CRM workflow skills and a track record of driving conversion metrics, which is closer to contact-center or inside-sales management than bank back-office work. Expect a change-management role on a team that is being restructured.",
+      "url": "https://jobs.lever.co/lyrahealth/c0a2d636-b683-4ca4-b123-9779f0d9d442",
+      "ats": "Lever"
     }
   ]
 }
