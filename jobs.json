@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T07:30:00-06:00",
+  "updatedAt": "2026-11-23T07:45:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -47,22 +47,6 @@
       ],
       "headsUp": "This is product/business operations for deposit products, not a classic back-office ACH or wire queue. It asks for 4+ years in business operations, strategy, or product operations, and prefers experience launching deposit products at a regulated fintech.",
       "url": "https://job-boards.greenhouse.io/truebill/jobs/8042051003",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "mission-lane-senior-treasury-analyst",
-      "company": "Mission Lane",
-      "title": "Senior Treasury Analyst",
-      "pay": "$82,000\u2013$97,000 + annual incentive and equity",
-      "location": "Remote (US); up to about four trips a year",
-      "lane": "Banking",
-      "highlights": [
-        "Own daily cash positions and execute and track wires and ACH for timely settlement",
-        "Help stand up treasury and liquidity processes for Mission Lane Bank as it moves toward a charter",
-        "Reconcile bank accounts and support ALCO, liquidity, and examiner reporting"
-      ],
-      "headsUp": "A bachelor's degree in finance, accounting, economics, or a related quantitative field is listed as a minimum, along with 4+ years in treasury, finance, accounting, or a comparable analytical role. This is bank treasury and liquidity work, not a deposit-operations queue. SQL and Python proficiency is desired; travel is up to about four times a year.",
-      "url": "https://job-boards.greenhouse.io/missionlane/jobs/8680126002",
       "ats": "Greenhouse"
     },
     {
@@ -160,22 +144,6 @@
       "headsUp": "This is an entry-level analyst role; the posting typically asks for less than two years of related experience, with exposure to fraud, payments, banking operations, or customer service required. The hourly range is well below a typical operations-manager range. Pathward has offices in several cities, but this posting is listed as remote.",
       "url": "https://job-boards.greenhouse.io/pathward/jobs/6185752004",
       "ats": "Greenhouse"
-    },
-    {
-      "id": "onpay-manager-financial-operations",
-      "company": "OnPay",
-      "title": "Manager, Financial Operations",
-      "pay": "$90,000\u2013$100,000 base + bonus and stock options",
-      "location": "Remote (US); Atlanta HQ optional",
-      "lane": "Banking",
-      "highlights": [
-        "Lead the Money Movement and Payroll Settlement team across Same-Day ACH, standard ACH, wire, RTP, and FedNow",
-        "Own ACH returns (R01, R03, R08), reversals, trace requests, NSF and fraud/exposure monitoring",
-        "AAP is called out by name, and the role centers on NACHA rules, cut-offs, and bank-partner relationships"
-      ],
-      "headsUp": "Asks for 5+ years in financial, treasury, payment, or payroll operations with 2+ years managing teams. It also lists prior experience at a payroll provider, PEO, merchant processor, or B2B embedded fintech, which a community-bank background does not directly cover. Bachelor's degree or equivalent experience. Ledger and three-way reconciliation work is part of the job.",
-      "url": "https://careers.onpay.com/jobs/8625036-manager-financial-operations",
-      "ats": "Teamtailor"
     },
     {
       "id": "ramp-fraud-operations-specialist",
@@ -370,38 +338,6 @@
       "ats": "Ashby"
     },
     {
-      "id": "leap-member-intake-coordinator",
-      "company": "Leap",
-      "title": "Member Intake Coordinator",
-      "pay": "$60,000\u2013$75,000 + equity",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "High-volume outbound intake: 80\u2013100+ daily touchpoints by phone, SMS, and email",
-        "Own the member relationship from first outreach through handoff to the Care team",
-        "Healthcare or clinical experience is preferred, not required"
-      ],
-      "headsUp": "This is a high-volume outbound role, not a quiet back-office queue. You must be available 10am\u20136pm Pacific Time (12pm\u20138pm Chicago time). Prior healthcare experience is preferred only.",
-      "url": "https://jobs.ashbyhq.com/leap/32f57d65-2bb3-4506-8eb5-d9919d7a50bd",
-      "ats": "Ashby"
-    },
-    {
-      "id": "rula-sr-credentialing-enrollment",
-      "company": "Rula",
-      "title": "Sr. Credentialing & Enrollment Specialist",
-      "pay": "$80,000\u2013$91,200 + equity (base only; no bonus)",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Enroll providers with regional and national payers and support new payer launches",
-        "Guide providers through credentialing and enrollment steps",
-        "Document and improve processes for a remote-first mental health company"
-      ],
-      "headsUp": "Requires 3+ years working with or for health plans, networks, or CVOs, and 2+ years enrolling providers with regional or national payers. This is payer enrollment work, not claims adjudication.",
-      "url": "https://jobs.ashbyhq.com/rula/6e12bb1c-a5cf-4940-aab2-0313d9728c9c",
-      "ats": "Ashby"
-    },
-    {
       "id": "headway-senior-operations-associate",
       "company": "Headway",
       "title": "Senior Operations Associate",
@@ -431,22 +367,6 @@
       ],
       "headsUp": "A current CPC certification through AAPC is required and will be verified before an offer. This will not be a fit without that credential.",
       "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4747630005",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "ivx-health-insurance-follow-up",
-      "company": "IVX Health",
-      "title": "Insurance Follow-Up Specialist",
-      "pay": "$22\u2013$25/hour",
-      "location": "Remote (US); optional hybrid in Brentwood, TN",
-      "lane": "Healthcare",
-      "highlights": [
-        "Resolve 50\u2013100 insurance denials a day and work payer portals and clearinghouses",
-        "Follow up on Medicare specialty-drug coverage and commercial claims",
-        "Full-time role with benefits; BCBS Texas experience is called out as a plus"
-      ],
-      "headsUp": "Requires 5+ years in healthcare billing, claims, or insurance follow-up, plus ICD-10/CPT/HCPCS knowledge and Medicare collections experience. This is a high-volume denial queue, Monday\u2013Friday standard business hours.",
-      "url": "https://job-boards.greenhouse.io/ivxhealth/jobs/4473036009",
       "ats": "Greenhouse"
     },
     {
@@ -482,22 +402,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "grow-therapy-client-billing-support",
-      "company": "Grow Therapy",
-      "title": "Specialist I, Client Billing Support",
-      "pay": "$20.00\u2013$24.04/hour + equity",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Help therapy clients and providers with billing and insurance questions by chat, messaging, and phone",
-        "Needs only 1+ year in a customer-facing role; insurance and billing knowledge is a nice-to-have",
-        "Translate insurance and billing details into plain language for clients"
-      ],
-      "headsUp": "Hourly pay is well below an operations-manager level. The current shift is 12pm\u20139pm Eastern (11am\u20138pm Chicago time). Remote roles include 2\u20133 trips a year for offsites. Health insurance or claims familiarity is listed only as a nice-to-have.",
-      "url": "https://jobs.ashbyhq.com/grow-therapy/3b1aee96-d85b-4bc5-bab6-4f3c6c7a3bb0",
-      "ats": "Ashby"
-    },
-    {
       "id": "ophelia-patient-engagement-specialist",
       "company": "Ophelia",
       "title": "Patient Engagement Specialist",
@@ -511,22 +415,6 @@
       ],
       "headsUp": "The salary is a single posted figure of $50,000. The role includes weekend coverage: either Tuesday\u2013Saturday or Sunday\u2013Thursday, on Eastern Time hours (about 8am\u20134pm Chicago time). It is patient-facing support, not back-office operations.",
       "url": "https://job-boards.greenhouse.io/ophelia/jobs/5477123008",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "figure-senior-treasury-finops-analyst",
-      "company": "Figure",
-      "title": "Senior Treasury and FinOps Analyst",
-      "pay": "$97,750\u2013$132,250",
-      "location": "Remote (US); Eastern Time business hours",
-      "lane": "Banking",
-      "highlights": [
-        "Daily cash positioning and bank balance reconciliation across multiple entities",
-        "Execute wires and ACH transfers under approval protocols and SOX controls, including wire callbacks and template oversight",
-        "Support loan-sale funding operations and month-end close with Accounting"
-      ],
-      "headsUp": "This is corporate treasury/financial operations at a blockchain lending company, not bank deposit ops. It asks for 3\u20135 years in funding, treasury, or financial operations and a bachelor's degree (business/finance-type field listed). Kyriba/TMS, cash forecasting, and mortgage lending experience are preferred, and Tableau/SQL comfort is expected over time. Eastern Time hours.",
-      "url": "https://job-boards.greenhouse.io/figure/jobs/8886061002",
       "ats": "Greenhouse"
     },
     {
@@ -690,22 +578,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "oscar-claims-processor-i",
-      "company": "Oscar Health",
-      "title": "Claims Processor I",
-      "pay": "$20/hour",
-      "location": "Remote; open only to residents of Arizona, Florida, Georgia, or Texas",
-      "lane": "Healthcare",
-      "highlights": [
-        "Entry-level claims role: review and process claims and help resolve claim status questions",
-        "Open to Texas residents, with the work done from a home office",
-        "Requires a high school diploma or GED (or equivalent experience)"
-      ],
-      "headsUp": "Pay is far below your banking level. Claims-system experience and a business, finance, or healthcare degree are 'bonus points', not requirements, but you'd be competing as someone with no claims background. Occasional travel for team meetings is possible.",
-      "url": "https://oscarhealth.com/careers/jobs/8353050-claims-processor-i?gh_jid=8353050",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "talkspace-senior-client-support-rep",
       "company": "Talkspace",
       "title": "Senior Client Support Representative",
@@ -800,6 +672,86 @@
       "headsUp": "The posting wants deep Salesforce/CRM workflow skills and a track record of driving conversion metrics, which is closer to contact-center or inside-sales management than bank back-office work. Expect a change-management role on a team that is being restructured.",
       "url": "https://jobs.lever.co/lyrahealth/c0a2d636-b683-4ca4-b123-9779f0d9d442",
       "ats": "Lever"
+    },
+    {
+      "id": "paxos-senior-compliance-associate-kyc",
+      "company": "Paxos",
+      "title": "Senior Compliance Associate, KYC",
+      "pay": "$116,000\u2013$132,600 + 10% annual bonus and equity",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Independently run KYC onboarding, ongoing due diligence, and enhanced due diligence reviews for individual and institutional customers",
+        "Uses US KYC know-how (CIP, beneficial ownership, CDD/EDD, customer risk rating) from bank account opening and deposit work",
+        "Mentor junior analysts, improve KYC procedures, and support audits and regulatory exams"
+      ],
+      "headsUp": "Paxos is a regulated blockchain and stablecoin company, so customers and products are crypto-focused. The role is KYC review, not payments operations, and expects strong independent KYC case judgment. Paxos warns of recruiter scams: apply only through paxos.com/careers or the Ashby link, and trust only @paxos.com emails.",
+      "url": "https://jobs.ashbyhq.com/paxos/12285dd7-2993-4da2-946f-ddd6f768e0bd",
+      "ats": "Ashby"
+    },
+    {
+      "id": "rocket-money-senior-analyst-fraud-aml",
+      "company": "Rocket Money",
+      "title": "Senior Analyst, Fraud and AML",
+      "pay": "$100,000\u2013$125,000 + bonus",
+      "location": "Remote (US), including Remote (EST); offices in Detroit, New York, San Francisco, and Washington, DC",
+      "lane": "Banking",
+      "highlights": [
+        "Triage and work fraud and AML alert queues: account takeover, first-party and ACH abuse, money mules",
+        "Run multi-account investigations through SAR referrals and bank partner escalations",
+        "Own queue SLAs and quality checks, and tune rules to cut false positives"
+      ],
+      "headsUp": "Requires 4+ years of fraud operations with AML compliance for deposit and/or brokerage products at a fintech. His fraud and disputes work is at a bank, not a fintech, and he hasn't done AML/SAR queue work as his main job, so the application should lead with the bank fraud and ACH experience. CAMS, CFE, or similar certifications are preferred.",
+      "url": "https://job-boards.greenhouse.io/truebill/jobs/8041700003",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "maven-manager-payments-reconciliation",
+      "company": "Maven Clinic",
+      "title": "Manager, Payments & Reconciliation",
+      "pay": "$115,000\u2013$130,000 + equity",
+      "location": "Remote (US); strong preference for San Francisco, then Seattle or New York",
+      "lane": "Healthcare",
+      "highlights": [
+        "Oversee end-to-end movement of payment funds, timely disbursement, and claims funding account reconciliation",
+        "Payment operations is one of the qualifying backgrounds, so his money movement, reconciliation, and controls experience counts directly",
+        "Build internal controls and audit readiness, and lead or mentor a small team"
+      ],
+      "headsUp": "Asks for 6+ years in revenue cycle, financial analysis, or payment operations. Healthcare payment operations is strongly preferred, and he has none. SQL, Looker, Asana, and Jira proficiency is listed, along with work with Product and Engineering on automation. The role is remote, but the posting strongly prefers San Francisco-area candidates. It sits in the Revenue Cycle Management team.",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8951510002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "gravie-compliance-analyst",
+      "company": "Gravie",
+      "title": "Compliance Analyst",
+      "pay": "$66,000\u2013$88,000",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Requires 2+ years in a highly regulated industry, and finance qualifies",
+        "Run risk-based oversight reviews and internal audits of claims processing, enrollment, and benefit administration",
+        "Track regulatory changes, write policies and procedures, and support SOC 2 audit readiness"
+      ],
+      "headsUp": "The ideal candidate brings health plan compliance expertise (ACA, HIPAA, MHPAEA, ERISA plan documents), and he would be learning those rules. He'd be coming from bank compliance (NACHA, Reg E/CC) and has no healthcare experience. Some of the work is legislative monitoring and document review rather than operations.",
+      "url": "https://jobs.ashbyhq.com/gravie/3e1dcde3-25fb-44ad-83fc-3ca31ae14552",
+      "ats": "Ashby"
+    },
+    {
+      "id": "parsley-health-customer-support-rep",
+      "company": "Parsley Health",
+      "title": "Customer Support Representative",
+      "pay": "$24.25/hour (about $50,440/year)",
+      "location": "Remote (US); Pacific Time schedule",
+      "lane": "Healthcare",
+      "highlights": [
+        "Needs only 1+ year of customer service, client support, or patient-facing experience, and no healthcare background is required",
+        "Handle member onboarding, scheduling, billing and membership questions, renewals, and cancellations by phone, SMS, and chat",
+        "Same pay everywhere in the US (no location-based adjustment)"
+      ],
+      "headsUp": "Pay is well below his current level, and this is a front-line support role, not management. The schedule is Monday\u2013Friday 8:30 AM\u20135:00 PM Pacific (10:30 AM\u20137:00 PM Central). The job includes retention and cancellation conversations.",
+      "url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/8209694003",
+      "ats": "Greenhouse"
     }
   ]
 }
