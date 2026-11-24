@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T07:45:00-06:00",
+  "updatedAt": "2026-11-24T07:45:00-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -258,38 +258,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "granted-healthcare-advocate",
-      "company": "Granted",
-      "title": "Healthcare Advocate",
-      "pay": "$50,000+ (starts at $50,000; varies by experience and location)",
-      "location": "Remote (continental US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Own complex medical billing and insurance cases from AI handoff through resolution",
-        "Contact payers and providers to fix claims, billing errors, eligibility, and prior-auth issues",
-        "Help shape playbooks at a seed-stage advocacy startup"
-      ],
-      "headsUp": "Requires 2+ years of recent (last 2\u20133 years) patient advocacy, medical billing, health insurance, revenue cycle, or claims resolution experience. Schedule is 40 hours between 7am\u20139pm ET, with optional weekend shifts.",
-      "url": "https://jobs.ashbyhq.com/granted/6ea717cc-a8d7-4a8e-8833-0b7cbef4be5f",
-      "ats": "Ashby"
-    },
-    {
-      "id": "midi-eligibility-specialist-contract",
-      "company": "Midi Health",
-      "title": "Eligibility Specialist (Contract)",
-      "pay": "$20/hour",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Verify insurance coverage, benefits, and eligibility in Athena and payer portals",
-        "Track pre-authorizations and coordination of benefits to prevent denials",
-        "Work with billing and patients to clear eligibility holds"
-      ],
-      "headsUp": "1099 contractor role with no company benefits. Requires 2+ years of eligibility/insurance verification, including major commercial plans across multiple states in a telehealth model, plus Athena or similar EHR experience.",
-      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4708693005",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "midi-rcm-specialist-contract",
       "company": "Midi Health",
       "title": "Revenue Cycle Specialist (Contract)",
@@ -322,38 +290,6 @@
       "ats": "Ashby"
     },
     {
-      "id": "leap-care-operations-associate",
-      "company": "Leap",
-      "title": "Care Operations Associate",
-      "pay": "$51,000\u2013$63,000 + equity",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Run benefit eligibility checks and keep coverage status current",
-        "Manage prior authorizations end to end across payers and specialty pharmacy partners",
-        "Chase missing documents and orders with provider offices so treatment is not delayed"
-      ],
-      "headsUp": "Requires 2+ years in a healthcare administrative or operations role supporting prior authorization or eligibility verification, and you must be able to work Central Time business hours.",
-      "url": "https://jobs.ashbyhq.com/leap/18f20283-b7e8-4fce-a3a1-393af114de79",
-      "ats": "Ashby"
-    },
-    {
-      "id": "headway-senior-operations-associate",
-      "company": "Headway",
-      "title": "Senior Operations Associate",
-      "pay": "$76,160\u2013$112,000",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Build and run scalable operations workflows that support patients, providers, and payers",
-        "Work at the intersection of operations, product, and data",
-        "Headway automates credentialing, claims, and payment reconciliation for therapists"
-      ],
-      "headsUp": "This is a process/product operations role, not a classic claims or member-services queue. Pay spans a wide range; the posting does not require prior clinical work, but healthcare-ops exposure helps.",
-      "url": "https://jobs.ashbyhq.com/headway/9040d21a-0b46-4a21-b778-02a4e9610647",
-      "ats": "Ashby"
-    },
-    {
       "id": "imagine-pediatrics-coding-billing",
       "company": "Imagine Pediatrics",
       "title": "Medical Coding & Billing Specialist",
@@ -367,22 +303,6 @@
       ],
       "headsUp": "A current CPC certification through AAPC is required and will be verified before an offer. This will not be a fit without that credential.",
       "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4747630005",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "two-chairs-client-outreach",
-      "company": "Two Chairs",
-      "title": "Client Outreach Specialist",
-      "pay": "$60,000\u2013$65,000",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Engage people seeking mental health care and help them start treatment",
-        "Act as a trusted advisor, not just a scheduler, through the intake path",
-        "Fixed weekday schedule with a clearly posted salary range"
-      ],
-      "headsUp": "This is proactive outreach and conversion, closer to member intake than claims or billing. The schedule is fixed 9am\u20135pm Pacific Time (11am\u20137pm Chicago time). Prior healthcare experience is not required.",
-      "url": "https://www.twochairs.com/jobs?gh_jid=8732004002",
       "ats": "Greenhouse"
     },
     {
@@ -448,22 +368,6 @@
       "headsUp": "This is platform/process operations at a health-and-social-care network tech company, not patient-facing work; no healthcare experience is listed as required. It mentions experience with Jira or Asana-type task tools. Background check includes education verification.",
       "url": "https://job-boards.greenhouse.io/uniteus/jobs/8944898002",
       "ats": "Greenhouse"
-    },
-    {
-      "id": "talkiatry-clinical-operations-coordinator",
-      "company": "Talkiatry",
-      "title": "Clinical Operations Coordinator",
-      "pay": "$24/hour",
-      "location": "Remote (US) or NYC HQ",
-      "lane": "Healthcare",
-      "highlights": [
-        "Triage and resolve clinician questions and escalations across communication channels",
-        "Process provider preference changes and manage patient transfers when providers exit",
-        "Coordinate clinician onboarding and schedules for clinical leadership"
-      ],
-      "headsUp": "Hourly pay is on the lower end. EMR familiarity (especially eClinicalWorks) is listed as a plus; healthcare experience is not stated as required. Bachelor's degree preferred, not required.",
-      "url": "https://jobs.ashbyhq.com/talkiatry/6965b58b-f0ea-4c07-bfac-2e9330ba53b4",
-      "ats": "Ashby"
     },
     {
       "id": "grow-therapy-specialist-i-client-support",
@@ -578,22 +482,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "talkspace-senior-client-support-rep",
-      "company": "Talkspace",
-      "title": "Senior Client Support Representative",
-      "pay": "$18\u2013$22/hour",
-      "location": "Remote (US); Eastern Time schedule",
-      "lane": "Healthcare",
-      "highlights": [
-        "Handle escalated client issues by phone, chat, and email: coverage eligibility, billing, refunds, and service problems",
-        "Spot contact trends and report issues to leadership. Help train new hires as a subject-matter expert",
-        "Asks for 2 years of contact-center or similar customer-facing experience, with no healthcare background required"
-      ],
-      "headsUp": "Hourly pay is low for your experience. Works on an Eastern Time schedule, with productivity and quality benchmarks. Typing speed of about 50\u201360 wpm and a dependable internet connection are required. Zendesk and workforce-management experience are pluses.",
-      "url": "https://www.talkspace.com/careers/job?gh_jid=6240873004",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "upstart-fraud-analyst-secured-lending",
       "company": "Upstart",
       "title": "Fraud Analyst, Secured Lending",
@@ -623,22 +511,6 @@
       ],
       "headsUp": "Requires a bachelor's degree, solid BSA/AML investigations and transaction-monitoring (SAM) experience, and prior supervision of analysts. Actimize/FCRM knowledge is expected and CAMS is preferred. His background is fraud/disputes and deposit ops, so BSA case depth is the gap to address.",
       "url": "https://job-boards.greenhouse.io/pathward/jobs/6225581004",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "stripe-payments-fraud-investigator",
-      "company": "Stripe",
-      "title": "Payments Fraud Investigator",
-      "pay": "$114,600\u2013$171,800 base",
-      "location": "Remote (US)",
-      "lane": "Banking",
-      "highlights": [
-        "Investigate high-risk merchant accounts for fraud, card testing, and account takeover",
-        "Lead root-cause analyses and cross-functional projects to improve fraud detection",
-        "Deliver case determinations to users and partner financial institutions"
-      ],
-      "headsUp": "Requires 5+ years conducting complex investigations and 3+ years leading risk projects. Card-not-present/merchant fraud experience and strong SQL are preferred, not required. Up to 10% travel to vendor sites. Posted in early October, so it may fill soon.",
-      "url": "https://stripe.com/jobs/listing/payments-fraud-investigator/8261213",
       "ats": "Greenhouse"
     },
     {
@@ -751,6 +623,102 @@
       ],
       "headsUp": "Pay is well below his current level, and this is a front-line support role, not management. The schedule is Monday\u2013Friday 8:30 AM\u20135:00 PM Pacific (10:30 AM\u20137:00 PM Central). The job includes retention and cancellation conversations.",
       "url": "https://job-boards.greenhouse.io/parsleyhealth/jobs/8209694003",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "seedtrust-manager-funding-disbursement-ops",
+      "company": "SeedTrust",
+      "title": "Manager of Funding & Disbursement Operations",
+      "pay": "Not listed",
+      "location": "Remote (US only)",
+      "lane": "Banking",
+      "highlights": [
+        "Lead a remote, cross-cultural team across payment and deposit operations at an escrow fund manager",
+        "Own controls over payment approvals, check releases, ACH/NACHA processes, and segregation of duties",
+        "Asks for 5+ years in payments/banking ops with 2+ years managing people, which matches his deposit ops manager background"
+      ],
+      "headsUp": "Pay is not posted (benefits listed: medical/dental/vision, 401(k), unlimited PTO). Applications go through JazzHR with a short questionnaire. Interviews are live on camera, references include a former manager, and the role needs authorization on the company's bank accounts, so there's a background check after the offer. Experience managing remote teams across time zones is listed as a requirement.",
+      "url": "https://seedtrust.applytojob.com/apply/KKjRbYBIWv/Manager-Of-Funding-Disbursement-Operations",
+      "ats": "JazzHR"
+    },
+    {
+      "id": "branch-risk-recovery-contact-ops-manager",
+      "company": "Branch",
+      "title": "Risk and Recovery Contact Operations Manager",
+      "pay": "$95,000\u2013$105,000 + stock options",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Own the 24/7 BPO phone and chat operation for fraud claims, dispute intake, account unlocks, and account takeover",
+        "Set call flows, identity verification steps, QA, and training for front-line agents",
+        "Requires 2+ years in fraud, disputes, chargebacks, or payments ops at a financial institution; Reg E error resolution is a plus"
+      ],
+      "headsUp": "This is an individual contributor role with no direct reports, even though it says Manager. It requires 4\u20136 years of contact center operations, including 2+ years working directly with a BPO/offshore partner, plus hands-on workforce management (forecasting, scheduling, intraday) and experience building QA programs. He may be light on BPO and workforce management. Some meetings may fall outside normal hours, and there may be occasional travel to BPO sites.",
+      "url": "https://job-boards.greenhouse.io/branch/jobs/8207574003",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "lithic-senior-compliance-analyst",
+      "company": "Lithic",
+      "title": "Senior Compliance Analyst",
+      "pay": "$100,000\u2013$135,000 + equity",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Compliance work at a card-issuing platform with sponsor-bank relationships",
+        "Calls for working knowledge of Reg E, Reg Z, and the USA PATRIOT Act, plus KYC/KYB tools",
+        "Unlimited PTO, 401(k) match, and a fully paid 12-week parental leave"
+      ],
+      "headsUp": "Requires 3\u20135 years of compliance experience in fintech, payments, or a bank-partnered setting, with a direct CIP background, plus CAMS certification or active work toward it. He doesn't hold CAMS. It also asks for working knowledge of AI governance in compliance. The pay range covers several levels and gets narrowed during interviews.",
+      "url": "https://job-boards.greenhouse.io/lithic/jobs/6268572004",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "coinbase-senior-operations-associate",
+      "company": "Coinbase",
+      "title": "Senior Operations Associate",
+      "pay": "$151,895\u2013$178,700 base + equity and bonus eligibility",
+      "location": "Remote (US)",
+      "lane": "Banking",
+      "highlights": [
+        "Partner operations for payments customers: billing, reporting, escalations, and account management",
+        "Asks for 5+ years in customer or partner operations at a PSP, fintech, bank, or crypto company",
+        "Build workflows, playbooks, and automation for common partner requests"
+      ],
+      "headsUp": "This is a stretch. It wants experience supporting strategic enterprise customers and working knowledge of stablecoins, cross-border payments, and digital wallets, not just ACH and wires. Coinbase is remote-first but holds quarterly in-person \"surges,\" and it caps candidates at 3 applications per 6 months.",
+      "url": "https://www.coinbase.com/careers/positions/8351400?gh_jid=8351400",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "maven-member-services-senior-associate",
+      "company": "Maven Clinic",
+      "title": "Member Services Senior Associate",
+      "pay": "$68,000\u2013$80,000 + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Resolve member questions on managed benefits, fertility programs, and Maven Wallet reimbursements and payments",
+        "Open to 2+ years of member-facing support in financial services, not only healthcare",
+        "Review reimbursement documentation, spot discrepancies, and triage by financial risk, which fits his payments background"
+      ],
+      "headsUp": "This is shift work on Eastern Time (for example Mon\u2013Fri 1:00\u20139:30 PM ET, or a schedule that includes Sundays), and it requires flexibility for evenings, weekends, and holidays. Benefits/claims experience is preferred, and Spanish (not Vietnamese) is the listed language bonus.",
+      "url": "https://job-boards.greenhouse.io/mavenclinic/jobs/8957323002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "two-chairs-care-coordinator",
+      "company": "Two Chairs",
+      "title": "Care Coordinator",
+      "pay": "$47,005\u2013$55,300 expected offer (full range $47,005\u2013$61,295) + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Phone and email support for therapy clients on care logistics, billing, and insurance",
+        "No healthcare experience required; it only asks for interest in learning health insurance and claims",
+        "Help clinicians with scheduling logistics and refund requests"
+      ],
+      "headsUp": "This is an entry-level, non-exempt role with lower pay than his banking options. Shifts are 8 hours between 9am and 8pm Eastern. He already applied to Two Chairs' Client Outreach Specialist role, so this would be a second application at the same company.",
+      "url": "https://www.twochairs.com/jobs?gh_jid=8953800002",
       "ats": "Greenhouse"
     }
   ]
