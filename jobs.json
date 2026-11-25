@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T07:45:00-06:00",
+  "updatedAt": "2026-11-25T06:59:09-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -674,22 +674,6 @@
       "ats": "Greenhouse"
     },
     {
-      "id": "coinbase-senior-operations-associate",
-      "company": "Coinbase",
-      "title": "Senior Operations Associate",
-      "pay": "$151,895\u2013$178,700 base + equity and bonus eligibility",
-      "location": "Remote (US)",
-      "lane": "Banking",
-      "highlights": [
-        "Partner operations for payments customers: billing, reporting, escalations, and account management",
-        "Asks for 5+ years in customer or partner operations at a PSP, fintech, bank, or crypto company",
-        "Build workflows, playbooks, and automation for common partner requests"
-      ],
-      "headsUp": "This is a stretch. It wants experience supporting strategic enterprise customers and working knowledge of stablecoins, cross-border payments, and digital wallets, not just ACH and wires. Coinbase is remote-first but holds quarterly in-person \"surges,\" and it caps candidates at 3 applications per 6 months.",
-      "url": "https://www.coinbase.com/careers/positions/8351400?gh_jid=8351400",
-      "ats": "Greenhouse"
-    },
-    {
       "id": "maven-member-services-senior-associate",
       "company": "Maven Clinic",
       "title": "Member Services Senior Associate",
@@ -719,6 +703,22 @@
       ],
       "headsUp": "This is an entry-level, non-exempt role with lower pay than his banking options. Shifts are 8 hours between 9am and 8pm Eastern. He already applied to Two Chairs' Client Outreach Specialist role, so this would be a second application at the same company.",
       "url": "https://www.twochairs.com/jobs?gh_jid=8953800002",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "midi-senior-ops-manager-performance-enablement",
+      "company": "Midi Health",
+      "title": "Senior Operations Manager, Performance & Enablement",
+      "pay": "$130K\u2013$160K base + equity",
+      "location": "Remote (US)",
+      "lane": "Healthcare",
+      "highlights": [
+        "Build QA scorecards, coaching, and training programs for high-volume frontline operations teams",
+        "Turn performance data into clear training and process fixes; partner with Ops, Product, and Analytics",
+        "Healthcare operations experience is listed as a bonus, not a requirement"
+      ],
+      "headsUp": "This is a senior role asking for 7+ years in operations, QA, training, or performance management, with real experience designing QA scorecards, calibration, and onboarding/training programs at scale. It is an influence role (you won't directly manage the frontline staff). They expect an AI-first approach to analysis. Full-time W2; no visa sponsorship.",
+      "url": "https://job-boards.greenhouse.io/midihealth/jobs/4757526005",
       "ats": "Greenhouse"
     }
   ]
