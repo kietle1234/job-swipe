@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T06:59:09-06:00",
+  "updatedAt": "2026-11-26T07:06:54-06:00",
   "jobs": [
     {
       "id": "climate-first-deposit-ops-advanced-specialist",
@@ -127,22 +127,6 @@
       ],
       "headsUp": "This is a customer-support role attached to risk operations, not a back-office payments or fraud-investigation queue. It asks for 2+ years in customer operations, ideally in fintech or banking, plus a foundational understanding of AML and risk. Mercury is a fintech, not an FDIC-insured bank.",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6260859004",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "pathward-frmo-analyst-i",
-      "company": "Pathward, N.A.",
-      "title": "Fraud Risk Management & Operations (FRMO) Analyst I",
-      "pay": "$17.25\u2013$28.00/hour + annual performance incentive",
-      "location": "Remote (US)",
-      "lane": "Banking",
-      "highlights": [
-        "Triage first-line fraud alerts, including ACH monitoring and card authorizations",
-        "Investigate cases end to end, document findings for audit, and take card actions to limit loss",
-        "Handle inbound and outbound fraud-related calls and refer SAR/CTR work to BSA/AML"
-      ],
-      "headsUp": "This is an entry-level analyst role; the posting typically asks for less than two years of related experience, with exposure to fraud, payments, banking operations, or customer service required. The hourly range is well below a typical operations-manager range. Pathward has offices in several cities, but this posting is listed as remote.",
-      "url": "https://job-boards.greenhouse.io/pathward/jobs/6185752004",
       "ats": "Greenhouse"
     },
     {
@@ -288,38 +272,6 @@
       "headsUp": "Requires 2+ years in medical billing, claims, or revenue cycle, plus working knowledge of HCPCS (especially J-codes), CPT, and ICD-10. Texas residents are eligible; AK, CA, CO, NY, and WA are excluded.",
       "url": "https://jobs.ashbyhq.com/leap/e5eb1aaf-c9bd-4e18-8bb6-44b28c920364",
       "ats": "Ashby"
-    },
-    {
-      "id": "imagine-pediatrics-coding-billing",
-      "company": "Imagine Pediatrics",
-      "title": "Medical Coding & Billing Specialist",
-      "pay": "$55,000\u2013$65,000",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Submit clean claims with accurate CPT, HCPCS, and ICD-10 codes",
-        "Blend coding review with billing follow-up to reduce denials",
-        "Support documentation improvements with providers and partner operations"
-      ],
-      "headsUp": "A current CPC certification through AAPC is required and will be verified before an offer. This will not be a fit without that credential.",
-      "url": "https://job-boards.greenhouse.io/imaginepediatrics/jobs/4747630005",
-      "ats": "Greenhouse"
-    },
-    {
-      "id": "metro-vein-director-payor-relations",
-      "company": "Metro Vein Centers",
-      "title": "Director of Payor Relations",
-      "pay": "Not listed",
-      "location": "Remote (US)",
-      "lane": "Healthcare",
-      "highlights": [
-        "Own payer relationships, contracts, negotiations, and fee schedules for a regional clinic portfolio",
-        "Translate reimbursement terms into guidance for revenue cycle, finance, credentialing, and operations",
-        "Senior individual-contributor role across a 70+ clinic, multi-state network"
-      ],
-      "headsUp": "This is payer contracting and reimbursement strategy, not claims processing. Pay is not posted and the level implies senior healthcare-network experience. There are also clinic sites in the Houston area, but this posting is remote US.",
-      "url": "https://job-boards.greenhouse.io/metroveincenters/jobs/4464789009",
-      "ats": "Greenhouse"
     },
     {
       "id": "ophelia-patient-engagement-specialist",
@@ -719,6 +671,38 @@
       ],
       "headsUp": "This is a senior role asking for 7+ years in operations, QA, training, or performance management, with real experience designing QA scorecards, calibration, and onboarding/training programs at scale. It is an influence role (you won't directly manage the frontline staff). They expect an AI-first approach to analysis. Full-time W2; no visa sponsorship.",
       "url": "https://job-boards.greenhouse.io/midihealth/jobs/4757526005",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "srs-acquiom-payments-analyst",
+      "company": "SRS Acquiom",
+      "title": "Payments Analyst",
+      "pay": "$60,000\u2013$70,000",
+      "location": "Remote (contiguous US); hybrid only if within 20 miles of Denver",
+      "lane": "Banking",
+      "highlights": [
+        "Create daily payment files for bank partners and meet the payment deadline",
+        "Research returned or delayed payments and process stop-check requests",
+        "Review shareholder documentation and payment packets for M&A deals, handling PII with care"
+      ],
+      "headsUp": "Pay is below Kiet's current level, and the role is more document-processing than ACH management: mailed Letters of Transmittal, data entry, and follow-up with security holders. It asks for 1\u20134 years of experience, so he is overqualified. Remote hires visit the Denver HQ about three times a year, and some evening or weekend hours may come up around deal deadlines.",
+      "url": "https://job-boards.greenhouse.io/srsacquiom/jobs/5243915007",
+      "ats": "Greenhouse"
+    },
+    {
+      "id": "twilio-fraud-specialist-supplier-ops",
+      "company": "Twilio",
+      "title": "Fraud Specialist, Supplier Operations & Governance",
+      "pay": "$108,720\u2013$135,900 (posted for CO, HI, IL, MD, MA, MN, VT; Texas pay discussed during hiring)",
+      "location": "Remote (US); not open in CA, CT, NJ, NY, PA, WA, or the DC area",
+      "lane": "Banking",
+      "highlights": [
+        "Own customer and vendor billing disputes end to end, from intake to documented resolution",
+        "Investigate fraudulent misuse and billing errors and build data-backed dispute cases",
+        "Negotiate settlements and payment terms with customers and carriers, and build dashboards for dispute metrics"
+      ],
+      "headsUp": "This is telecom fraud (artificially inflated SMS/voice traffic, international revenue share fraud), not bank fraud. Kiet's disputes and fraud background fits, but the telecom knowledge is new to him (it's listed as preferred, not required). It requires 8+ years in fraud ops, collections, customer success, or a related field, plus negotiation experience and Excel/Sheets, Looker, or SQL data work. Occasional travel may be needed. Applications are expected to close around Dec 30, 2026.",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8386095",
       "ats": "Greenhouse"
     }
   ]
